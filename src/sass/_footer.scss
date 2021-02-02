@@ -1,0 +1,19 @@
+.footer {
+  padding: 60px 0;
+  background: $primary;
+  color: #fff;
+
+  &__logo {
+    height: 86px;
+  }
+
+  &__contact {
+    color: #30DAE8;
+  }
+
+  &__link {
+    display: block;
+    padding: 2px 0;
+    color: #fff;
+  }
+}

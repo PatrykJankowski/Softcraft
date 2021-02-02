@@ -1,0 +1,43 @@
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 52px;
+    padding: 0 48px;
+    border-radius: 30px;
+    background: #fff;
+    color: $secondary;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s all;
+
+    &:hover {
+        opacity: .7;
+    }
+
+    &--max-width {
+        max-width: 250px;
+    }
+
+    &--bg {
+        background: $secondary;
+        color: $white;
+
+    }
+
+    &--ml--auto {
+        @media (min-width: 768px) {
+            margin-left: auto;
+        }
+    }
+
+    &--mt {
+        margin-top: $m;
+    }
+
+    &--mt-xl {
+        margin-top: $xl;
+    }
+}

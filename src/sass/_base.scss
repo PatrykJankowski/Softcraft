@@ -1,0 +1,340 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  color: $text-main-color;
+  line-height: 1.44;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  background: #fff;
+}
+
+main {
+  margin-top: $navigation-height;
+
+  @media screen and (min-width: $desktop) {
+    margin-top: $navigation-height;
+    min-height: calc(100vh - 657px);
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  line-height: 1.22;
+}
+
+h1 {
+  @include font-size(36);
+  font-weight: 400;
+  min-height: 132px;
+
+  @media (min-width: 600px)  {
+    font-size: $h1-size;
+  }
+}
+
+h2 {
+  @include font-size(32);
+  font-weight: 400;
+
+  @media (min-width: 600px)  {
+    font-size: $h2-size;
+  }
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 400;
+
+  @media (min-width: 600px)  {
+    font-size: $h3-size;
+  }
+}
+
+h4 {
+  @include font-size(18);
+  font-weight: 400;
+
+  @media (min-width: 600px)  {
+    @include font-size(18);
+  }
+}
+
+h5 {
+  font-size: $h5-size;
+}
+
+p {
+  margin: 0.4rem 0;
+  line-height: 1.4;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul, ol {
+  margin: 0 0 0 $s;
+  padding: 0;
+}
+
+input {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  background: #E5E5E5;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  color: #6E6F71;
+}
+
+input[type='submit'] {
+  width: auto;
+}
+
+select::-ms-expand {
+  display: none; //IE11
+}
+
+/* Firefox - removes outline */
+select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 $text-main-color;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-response {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.separator {
+  width: 190px;
+  margin: $xxl auto 0;
+  border: 2px solid $primary;
+}
+
+
+
+
+
+
+
+
+
+
+.background-primary {
+  background-color: $primary;
+  color: $white;
+}
+
+.background-secondary {
+  background-color: $secondary;
+}
+
+.container--flex {
+  display: flex;
+}
+
+
+
+.hero {
+  max-height: 300px;
+  margin: -$l auto $m;
+  display: flex;
+
+  @media (min-width: 768px) {
+    max-height: 480px;
+    margin: 0 0 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.description {
+  max-width: 800px;
+  font-size: 32px;
+
+  @media (min-width: 600px)  {
+    font-size: 34px;
+  }
+
+  &--primary {
+    color: $primary;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--mb-s {
+    margin-bottom: $s;
+  }
+
+  &--mb {
+    margin-bottom: 100px;
+  }
+}
+
+
+.p {
+  &--primary {
+    color: $primary;
+  }
+
+  &--regular {
+    font-weight: 400;
+  }
+
+  &--mb {
+    margin-bottom: $xs;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.animation {
+  background: 50% 100% / 50% 50% no-repeat
+  radial-gradient(ellipse at bottom, #fff, transparent, transparent);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: reveal 3000ms ease-in-out forwards 200ms;
+
+
+  @keyframes reveal {
+    80%{
+      letter-spacing: 1px;
+    }
+    100% {
+      background-size: 200% 200%;
+    }
+  }
+  @keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.man {
+  position: absolute;
+  height: 235px;
+  bottom: 0;
+  right: 165px;
+}
+
+.picture {
+  position: absolute;
+  height: 76px;
+  bottom: 37px;
+  right: 318px;
+
+  transform: translateY(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+.text {
+  position: absolute;
+  height: 60px;
+  bottom: 170px;
+  right: 34px;
+
+  animation: scale 3s ease-in-out infinite;
+}
+
+
+@keyframes float {
+  0% {
+    //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+  50% {
+    //box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+    transform: translatey(-20px);
+  }
+  100% {
+    //box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    transform: translatey(0px);
+  }
+}
