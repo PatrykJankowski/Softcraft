@@ -20,7 +20,7 @@ gulp.task('html', () => {
 });
 
 gulp.task('styles', function () {
-    return gulp.src('src/sass/style.scss')
+    return gulp.src('src/sass/style*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(gulp.dest(path))
@@ -45,8 +45,8 @@ gulp.task('json', function () {
 
 gulp.task('images', function () {
     return gulp.src('src/img/*')
-        .pipe(image())
-        //.pipe(webp())
+        //.pipe(image())
+        .pipe(webp())
         .pipe(gulp.dest(path + 'img'))
 });
 

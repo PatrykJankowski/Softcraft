@@ -2,12 +2,12 @@
 
 <?php get_header(); ?>
 
-<section class="section section--bg-primary section--pt-xxl section--pb-xxl">
+<section class="section section--bg-primary">
     <div class="container">
         <div class="row row--reverted-col">
             <div class="col-md-6">
                 <div class="header__wrapper">
-                    <h1 class="header header--white header--z-index">
+                    <h1 class="header header--white">
                         Współpracujemy<br>
                         z klientem na każdym etapie projektu
                     </h1>
@@ -53,7 +53,7 @@
                     <svg class="number" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.53 58.71"><g><path d="M37.85 13.59a13.46 13.46 0 01-3.24 9.11 16.83 16.83 0 01-9.1 5.15v.24q6.91.86 10.47 4.2a11.73 11.73 0 013.55 9q0 8.24-6 12.83t-17.05 4.59A41.58 41.58 0 010 55.63V45.35a37.71 37.71 0 007.3 2.74 30.93 30.93 0 007.9 1q6 0 8.82-2c1.9-1.35 2.86-3.53 2.86-6.52a5.9 5.9 0 00-3.29-5.71q-3.27-1.66-10.46-1.66H8.79V24h4.41q6.65 0 9.71-1.74c2-1.16 3.07-3.15 3.07-6q0-6.48-8.13-6.48a18.74 18.74 0 00-5.72.93A28.11 28.11 0 005.66 14L.08 5.63A31 31 0 0118.71 0q8.87 0 14 3.59a11.52 11.52 0 015.14 10z" opacity=".75" fill="#11a5b8"/></g></svg>
                     <div class="offer__content">
                         <h5 class="offer__title">Programowanie</h5>
-                        <p class="offer__text">Po akceptacji projektu graficznego wykonujemy stronę www lub aplikację, uruchamiamy ją w środowisku testowym i udostępniamy</p>
+                        <p class="offer__text">Po akceptacji projektu graficznego wykonujemy stronę www lub aplikację i uruchamiamy ją w środowisku testowym i udostępniamy</p>
                     </div>
                 </div>
             </div>
@@ -70,144 +70,104 @@
     </div>
 </section>
 
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h2 class="header header--center">Przykłady projektów, które wykonaliśmy dla naszych klientów</h2>
+<section class="section section--pbn section--ptn">
+    <div id="websites" class="portfolio">
+        <img class="portfolio__img"
+             srcset="/blog/wp-content/themes/softcraft/img/4elements@1024.webp 1024w,
+                     /blog/wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
+                     /blog/wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
+             sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+             src="/blog/wp-content/themes/softcraft/img/4elements@1920.webp"
+             alt="4elements – strona internetowa">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">4elements</h3>
+                <h4>Strona internetowa</h4>
             </div>
+            <p class="portfolio__description">
+                Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
+            </p>
+            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
-</section>
 
-<section class="section section--bg-tertiary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/4elements.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">4elements</h3>
-                            <h4>Strona internetowa</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+    <div class="portfolio">
+        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">J. Grzybowski – Ubezpieczenia</h3>
+                <h4>Strona internetowa</h4>
             </div>
+            <p class="portfolio__description">
+                Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
+            </p>
+            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
-</section>
 
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">J. Grzybowski – Ubezpieczenia</h3>
-                            <h4>Strona internetowa</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+    <div class="portfolio">
+        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/bpgl.jpg">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">Biblioteka Publiczna Gminy Linia</h3>
+                <h4>Strona internetowa</h4>
             </div>
+            <p class="portfolio__description">
+                Spełniająca wymogi dostępności (WCAG) strona www stworzona we frameworku Django
+            </p>
+            <a href="/blog/projekty/biblioteka-publiczna-gmuny-linia" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
-</section>
 
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/bpgl.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">Biblioteka Publiczna Gminy Linia</h3>
-                            <h4>Strona internetowa</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Spełniająca wymogi dostępności (WCAG) strona www stworzona we frameworku Django
-                        </p>
-                        <a href="/blog/projekty/biblioteka-publiczna-gmuny-linia" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+    <div class="portfolio">
+        <img class="portfolio__img"
+             srcset="/blog/wp-content/themes/softcraft/img/konwenty@1024.webp 1024w,
+                     /blog/wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
+                     /blog/wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
+             sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+             src="/blog/wp-content/themes/softcraft/img/konwenty@1920.webp">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
+                <h4>Aplikacja mobilna</h4>
             </div>
+            <p class="portfolio__description">
+                Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
+            </p>
+            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
-</section>
 
-<section class="section section--bg-tertiary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/konwenty.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
-                            <h4>Aplikacja mobilna</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+    <div class="portfolio">
+        <img class="portfolio__img"
+             srcset="/blog/wp-content/themes/softcraft/img/muzeum-farmacji@1024.webp 1024w,
+                     /blog/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
+                     /blog/wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
+             sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+             src="/blog/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
+                <h4>Identyfikacja wizualna</h4>
             </div>
+            <p class="portfolio__description">
+                Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
+            </p>
+            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
-</section>
 
-<section class="section">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/muzeum-farmacji.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
-                            <h4>Identyfikacja wizualna</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+    <div class="portfolio">
+        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/sgm.jpg">
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <h3 class="header header--mb-xs">SGM Kids</h3>
+                <h4>Identyfikacja wizualna</h4>
             </div>
-        </div>
-    </div>
-</section>
-
-<section class="section section--bg-tertiary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div id="websites" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/sgm.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">SGM Kids</h3>
-                            <h4>Identyfikacja wizualna</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Identyfikacja wizualna dla firmy SGM kids, zajmujacej się produkcją materiałów przenaczonych do zabawy sensorycznej dla dzieci
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
-                    </div>
-                </div>
-            </div>
+            <p class="portfolio__description">
+                Identyfikacja wizualna dla firmy SGM kids, zajmujacej się produkcją materiałów przenaczonych do zabawy sensorycznej dla dzieci
+            </p>
+            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 </section>

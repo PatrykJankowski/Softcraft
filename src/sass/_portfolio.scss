@@ -1,33 +1,73 @@
 .portfolio {
     display: flex;
-    position: relative;
+    flex-direction: column;
     width: 100%;
-    transition: all 1s;
+    background: $tertiary;
 
-    &:first-child {
-        opacity: 1;
-        z-index: 1;
+    @include for-size(tablet) {
+        flex-direction: row;
     }
 
-    &:nth-child(2), &:nth-child(3) {
-        position: absolute;
-        top: 0;
-        opacity: 0;
-        width: calc(100% - 30px);
-        z-index: 0;
+    &:nth-child(2n) {
+        @include for-size(tablet) {
+            flex-direction: row-reverse;
+
+            .portfolio__wrapper {
+                text-align: right;
+                align-items: flex-end;
+            }
+        }
+
+        .button {
+            align-self: flex-end;
+        }
     }
 
-    &--mb-xxl {
-        margin-bottom: $xxl;
+    &:nth-child(3n+1) {
+        background: $tertiary;
+    }
+
+    &:nth-child(3n+2) {
+        background: $secondary;
+        color: $white;
+
+        .button {
+            color: $secondary;
+            background: $white;
+        }
+    }
+
+    &:nth-child(3n+3) {
+        background: $primary;
+        color: $white;
+
+        .button {
+            color: $secondary;
+            background: $white;
+        }
+    }
+
+    .button {
+        align-self: flex-start;
     }
 
     &__img {
-        width: 50%;
+        width: 100%;
         height: 300px;
         object-fit: cover;
 
         @include for-size(tablet) {
+            height: 400px;
+            width: 50%;
+        }
+
+        @include for-size(desktop) {
             height: 600px;
+            width: 50%;
+        }
+
+        @include for-size(desktop-wide) {
+            height: 900px;
         }
     }
 
@@ -35,20 +75,22 @@
         display: block;
         text-align: center;
         flex-direction: column;
+        width: 100%;
+        padding: 0 $s $m $s ;
 
         @media (min-width: 768px) {
             display: flex;
-            text-align: initial;
+            text-align: left;
+            padding: $m;
+            width: 50%;
         }
     }
-
 
     &__description {
         margin: $s 0;
 
         @media (min-width: 768px) {
             flex: 1;
-            margin: 0 $s 0;
             max-width: 360px;
         }
     }
@@ -60,22 +102,12 @@
 
         @media (min-width: 768px) {
             flex: 1;
-            margin: 0 $s 0;
-            max-width: 360px;
         }
     }
-
-    &__more {
-        justify-content: center;
-        display: flex;
-        padding: $xl 0 0;
-    }
 }
 
 
-.portfolio-details {
-    text-align: right;
-}
+
 
 .portfolio-img {
     width: 100%;

@@ -1,0 +1,10 @@
+.hero {
+  max-height: 300px;
+  margin: -$l auto $m;
+  display: flex;
+
+  @media (min-width: 768px) {
+    max-height: 480px;
+    margin: 0 0 0 auto;
+  }
+}

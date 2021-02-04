@@ -26,7 +26,20 @@
     <div class="button cookies__close">Nie pokazuj</div>
 </div>-->
 
-<script defer>
+<script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementsByClassName("navbar")[0].classList.add("navbar--reverted");
+            document.getElementsByClassName("cls-1")[0].classList.add("cls-1--reverted");
+            document.getElementsByClassName("cls-2")[0].classList.add("cls-2--reverted");
+        } else {
+            document.getElementsByClassName("navbar")[0].classList.remove("navbar--reverted");
+            document.getElementsByClassName("cls-1")[0].classList.remove("cls-1--reverted");
+            document.getElementsByClassName("cls-2")[0].classList.remove("cls-2--reverted");
+        }
+    }
+
     let navOpened = false;
     let initHeight = 432;
 
@@ -45,10 +58,9 @@
         }
     }
 
-
     /*
         // ---------- cookies banner ---------- //
-        const cookieName = 'grzybowski';
+        const cookieName = 'softcraft';
         const cookieValue = 'dismissed';
 
         document.querySelector('.cookies__close').addEventListener('click', closeCookieBanner);
@@ -80,5 +92,6 @@
 </script>
 
 <?php wp_footer(); ?>
+
 </body>
 </html>

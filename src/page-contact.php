@@ -1,4 +1,4 @@
-<?php /* Template Name: Offer */ ?>
+<?php /* Template Name: Contact */ ?>
 
 <?php get_header(); ?>
 
@@ -7,12 +7,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="header__wrapper">
-                        <h1 class="header header--white header--z-index">
+                        <h1 class="header header--white">
                             Dostarczamy<br>
                             kompleksowe usługi<br>
                             naszym klientom
                         </h1>
-                        <a href="" class="button button--max-width button--mt">Zobacz ofertę</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -22,7 +21,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section section--bg-tertiary">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -32,15 +31,21 @@
         </div>
         <div class="row">
             <div class="col">
+
+                <h3 id="email-sent-info" style="display: none">Dziękujemy za skontaktowanie się z nami,<br>
+                    odpowiedzi możesz spodziewać się w ciągu 48 godzin</h3>
+
                 <form action="" method="post" name="contact-me" id="contact-form">
                     <input type="text" name="name" placeholder="Imię i nazwisko_">
                     <input type="hidden" name="lastname" placeholder="Nazwisko_">
-                    <input type="text" name="company" placeholder="Nazwa firmy_">
+                    <input type="email" name="email" placeholder="E-mail_">
+                    <input type="text" name="phone" placeholder="Numer telefonu_">
                     <select name="service" class="dropdown">
                         <option value="" selected disabled>Czego potrzebujesz?_</option>
-                        <option>Strona internetowa</option>
-                        <option>Aplikacja mobilna lub webowa</option>
-                        <option>Identyfikacja wizualna</option>
+                        <option value="1">Strona internetowa</option>
+                        <option value="2">Aplikacja mobilna lub webowa</option>
+                        <option value="3">Identyfikacja wizualna</option>
+                        <option value="4">Opieka nad stroną</option>
                         <option>Inne</option>
                     </select>
                     <select name="budget" class="dropdown">
@@ -51,9 +56,7 @@
                         <option>od 3500 zł do 5000 zł</option>
                         <option>powyżej 5000 zł</option>
                     </select>
-                    <input type="email" name="email" placeholder="E-mail_">
-                    <input type="text" name="phone" placeholder="Numer telefonu_">
-                    <textarea name="message" placeholder="Szczegóły projektu_"></textarea>
+                    <textarea name="message" placeholder="Treść wiadomości_"></textarea>
                     <input type="hidden" name="action" value="send_form">
                     <input type="submit" value="Wyślij" class="button button--bg button--mt">
                 </form>
@@ -61,5 +64,172 @@
         </div>
     </div>
 </section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <p><strong>Softcraft – Patryk Jankowski</strong></p>
+                <p>NIP: 123 123 312</p>
+            </div>
+            <div class="col-md-4">
+                <p><strong>Kontakt</strong></p>
+                <p>e-mail: kontakt@softcraft.it</p>
+                <p>tel.: +48 798 410 280</p>
+            </div>
+            <div class="col-md-4">
+                <p><strong>Dane do płatności</strong></p>
+                <p>Patryk Jankowski</p>
+                <p>nr konta: 88 7987 7410 7280 7667 6767</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    let form = document.getElementById("contact-form");
+    let name = document.getElementsByName('name')[0];
+    let lastname = document.getElementsByName('lastname')[0];
+    let email = document.getElementsByName('email')[0];
+    let phone = document.getElementsByName('phone')[0];
+    let service = document.getElementsByName('service')[0];
+    let budget = document.getElementsByName('budget')[0];
+    let message = document.getElementsByName('message')[0];
+    let emailSentInfo = document.getElementById('email-sent-info');
+
+    name.onkeydown = function() {
+        if (validateLength(name.value, 3)) {
+            name.classList.remove("validation-error");
+        }
+    }
+
+    email.onkeydown = function() {
+        if (validateEmail(email.value)) {
+            email.classList.remove("validation-error");
+        }
+    }
+
+    email.onkeydown = function() {
+        if (validatePhone(phone.value)) {
+            phone.classList.remove("validation-error");
+        }
+    }
+
+    service.onkeydown = function() {
+        if (service.value) {
+            service.classList.remove("validation-error");
+
+            if (service.value == 4) {
+                budget.disabled = true;
+            }
+        }
+    }
+
+    budget.onkeydown = function() {
+        if (budget.value) {
+            budget.classList.remove("validation-error");
+        }
+    }
+
+    message.onkeydown = function() {
+        if (message.value) {
+            message.classList.remove("validation-error");
+        }
+    }
+
+    form.onsubmit = function() {
+        let validated = false;
+
+        if (message.value) {
+            message.classList.remove("validation-error");
+            message.classList.add("validation-pass");
+            validated = true;
+        } else {
+            message.classList.add("validation-error");
+            message.focus();
+        }
+
+        if (budget.value) {
+            budget.classList.remove("validation-error");
+            budget.classList.add("validation-pass");
+            validated = true;
+        } else {
+            budget.classList.add("validation-error");
+            budget.focus();
+        }
+
+        if (service.value) {
+            service.classList.remove("validation-error");
+            service.classList.add("validation-pass");
+            validated = true;
+        } else {
+            service.classList.add("validation-error");
+            service.focus();
+        }
+
+        if (validatePhone(phone.value) && (validateLength(phone.value, 9) || !phone.value)) {
+            phone.classList.remove("validation-error");
+            phone.classList.add("validation-pass");
+            validated = true;
+        } else {
+            phone.classList.add("validation-error");
+            phone.focus();
+        }
+
+        if (validateEmail(email.value)) {
+            email.classList.remove("validation-error");
+            email.classList.add("validation-pass");
+            validated = true;
+        } else {
+            email.classList.add("validation-error");
+            email.focus();
+        }
+
+        if (validateLength(name.value, 3)) {
+            name.classList.remove("validation-error");
+            name.classList.add("validation-pass");
+            validated = true;
+        } else {
+            name.classList.add("validation-error");
+            name.focus();
+        }
+
+        if (!validated) {
+            return false;
+        }
+
+        fetch(ajax_url, {
+            method: "POST",
+            headers: {'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8'},
+            body: `action=send_form&security=${form_nonce}&name=${name.value}&lastname=${lastname.value}&service=${service.value}&budget=${budget.value}&email=${email.value}&phone=${phone.value}&message=${message.value}`
+        }).then((response) => response.json())
+          .then((responseData) => {
+              if (responseData.success) {
+                  form.reset();
+                  form.style.display = 'none';
+                  emailSentInfo.style.display = 'block';
+              }
+        }, networkError => {
+            console.log(networkError.message);
+        });
+
+        // Prevents the submit event to refresh the page.
+        return false;
+    };
+
+    function validateEmail(email) {
+        const re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
+
+    function validateLength(string, length) {
+        return string.length >= length
+    }
+
+    function validatePhone(phone) {
+        const re = /^[+]*[(]{0,1}[0-9]{1,3}[)]{0,1}[-\s\./0-9]*$/g
+        return re.test(phone) || !phone;
+    }
+</script>
 
 <?php get_footer(); ?>

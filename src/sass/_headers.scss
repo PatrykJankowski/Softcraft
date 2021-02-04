@@ -3,7 +3,7 @@
     cursor: pointer;
     transition: 1s all;
     font-size: 24px;
-    margin-bottom: 40px;
+    margin: $l;
 
     &:hover {
       color: $primary;
@@ -26,41 +26,16 @@
     text-align: center;
   }
 
-  &--right {
-    text-align: right;
-  }
+  &--center-mobile {
+    text-align: center;
 
-  &--primary {
-    color: $primary;
-  }
-
-  &--w-600 {
-    max-width: 680px;
+    @include for-size(tablet) {
+      text-align: left;
+    }
   }
 
   &--mb-xs {
     margin-bottom: $xs;
-  }
-
-  &--mb {
-    margin-bottom: $xl;
-  }
-
-  &--mt-xxl-negative {
-    margin-top: -$xxl;
-  }
-
-  &--desktop-hide {
-    display: block;
-
-    @media (min-width: 768px) {
-      display: none;
-    }
-  }
-
-  &--z-index {
-    position: relative;
-    z-index: 1;
   }
 
   &__wrapper {

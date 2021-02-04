@@ -12,14 +12,14 @@ $margin-big: $m;
 
 /* Sizes */
 $navigation-height: 80px;
-$navigation-top-height: 48px;
 
 /* Colors */
-$blue: #006A9E;
+//$blue: #006A9E;
+$blue: #0070A7;
 $gray: #FBFBFB;
 $white: #fff;
 
-$primary: #006A9E;
+$primary: $blue;
 $secondary: #16AFBC;
 $tertiary: $gray;
 
@@ -47,6 +47,8 @@ $tablet: 768px;
         @media (min-width: 992px) { @content; }
     } @else if $size == desktop {
         @media (min-width: 1200px) { @content; }
+    } @else if $size == desktop-wide {
+        @media (min-width: 1921px) { @content; }
     }
 }
 

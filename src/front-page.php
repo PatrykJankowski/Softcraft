@@ -5,18 +5,11 @@
         <div class="row row--reverted-col">
             <div class="col-md-6">
                 <div class="header__wrapper">
-                    <h1 class="header header--white header--z-index">
+                    <h1 class="header header--white">
                         Tworzymy wizerunki<br>
                         firm w internecie
                     </h1>
-                    <!--<h1 class="header header--white header--z-index">Tworzymy
-                        <span
-                                class="txt-rotate"
-                                data-period="1000"
-                                data-rotate='[ "wizerunki firm w internecie", "szybkie strony internetowe", "aplikacje mobilne", "unikalne projekty graficzne" ]'></span>
-                    </h1>-->
-
-                    <a href="oferta" class="button button--max-width button--mt">Zobacz ofertę</a>
+                    <a href="oferta" class="button button--left-tablet button--mt">Zobacz ofertę</a>
                 </div>
             </div>
 
@@ -130,7 +123,7 @@
                     <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12 7a2.77 2.77 0 11-2.81 2.75A2.76 2.76 0 0112 7zm1.27 21H9.19a1.28 1.28 0 010-2.55h4.05a1.28 1.28 0 110 2.55zm7.44-5.34H7.92v-2.54h12.76zm5.12-5.36H7.92v-2.54H25.8z" fill="#16AFBC"></path></g></svg>
                     <div class="offer__wrapper">
                         <h4 class="offer__label">Programowanie</h4>
-                        <h3 class="offer__header">Strony www i aplikacje mobilne</h3>
+                        <h3 class="offer__header">Strony www<br>i aplikacje mobilne</h3>
                         <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
                     </div>
                 </div>
@@ -140,7 +133,7 @@
                     <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12.94 7.81a3.55 3.55 0 11-3.55 3.56 3.57 3.57 0 013.55-3.56zm-8 18.08l4.6-4.4L12 23.93l7.29-7.37 9.53 9.33z" fill="#16afbc"/></svg>
                     <div class="offer__wrapper">
                         <h4 class="offer__label">Grafika</h4>
-                        <h3 class="offer__header">Projektowanie graficzne</h3>
+                        <h3 class="offer__header">Projektowanie<br>graficzne</h3>
                         <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
                     </div>
                 </div>
@@ -153,7 +146,7 @@
                     <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.7 33.72"><path d="M16.42 7.83A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zm-.1-12.4A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zM28 0H5.7A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.7 5.71H28A5.71 5.71 0 0033.7 28V5.71A5.71 5.71 0 0028 0zm.44 28.44H5.28v-2.55h19.53L22 23a9.74 9.74 0 01-12.81-1.43H5.28V19h2.25a9.74 9.74 0 01-.24-7.42h-2V9.05h3.43a9.75 9.75 0 1115.13 12.28l4.56 4.56zm-12-20.61A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm5.8 6.71a5.7 5.7 0 01-11.4 0v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55z" fill="#16afbc"/></svg>
                     <div class="offer__wrapper">
                         <h4 class="offer__label">Utrzymanie</h4>
-                        <h3 class="offer__header">Opieka nad stroną i pozycjonowanie</h3>
+                        <h3 class="offer__header">Opieka nad stroną<br>i pozycjonowanie</h3>
                         <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
                     </div>
                 </div>
@@ -162,7 +155,7 @@
                 <div class="offer">
                     <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm.34 10.47H25.8v-2.4h-7.66v17.58h4.58v2.55H11v-2.55h4.58V8.07H7.93v2.46H5.38v-5h23z" fill="#16afbc"/></svg>                    <div class="offer__wrapper">
                         <h4 class="offer__label">Tworzenie treści</h4>
-                        <h3 class="offer__header">Tworzenie, redakcja i korekta tekstu</h3>
+                        <h3 class="offer__header">Tworzenie, redakcja<br>i korekta tekstu</h3>
                         <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
                     </div>
                 </div>
@@ -172,141 +165,82 @@
 </section>
 
 
-<section class="section">
+<section class="section section--bg-primary">
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="header header--center">Współpracujemy z klientem na każdym etapie projektu, tworząc produkty zgodne z oczekiwaniami</h2>
+                <h2 class="header header--center header--white">Współpracujemy z klientem na każdym etapie projektu, tworząc produkty zgodne z oczekiwaniami</h2>
             </div>
         </div>
     </div>
 </section>
 
-<section class="section section--bg-tertiary">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="header header--center header--mt-xxl-negative header--desktop-hide">Najnowszy projekt</h3>
+
+    <section class="section section--ptn section--pbn">
+        <div class="portfolio">
+
+            <img class="portfolio__img" height="600"
+                 srcset="wp-content/themes/softcraft/img/4elements@768.webp 1536w,
+                         wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
+                         wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
+                 src="wp-content/themes/softcraft/img/4elements@1920.webp"
+                 alt="4elements – strona internetowa">
+
+            <div class="portfolio__wrapper">
+                <div class="portfolio__title">
+                    <h3 class="header header--mb-xs">4elements</h3>
+                    <h4>2020 | Strona internetowa</h4>
+                </div>
+                <p class="portfolio__description">
+                    Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
+                </p>
+                <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
             </div>
         </div>
 
-        <div class="row section--mobile-hide">
-            <div class="col" style="display: flex; justify-content: space-between;">
-                <h3 id="website_link" class="header header--link header--active">Strony internetowe</h3>
-                <h3 id="app_link" class="header header--link">Aplikacje mobilne</h3>
-                <h3 id="design_link" class="header header--link">Identyfikacja wizualna</h3>
+        <div class="portfolio">
+            <img class="portfolio__img" height="600"
+                 srcset="wp-content/themes/softcraft/img/konwenty@768.webp 1536w,
+                         wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
+                         wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
+                 sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+                 src="wp-content/themes/softcraft/img/konwenty@1920.webp"
+                 alt="Kalendarz Konwentów – aplikacja mobilna">
+
+            <div class="portfolio__wrapper">
+                <div class="portfolio__title">
+                    <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
+                    <h4>2020 | Aplikacja</h4>
+                </div>
+                <p class="portfolio__description">
+                    Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
+                </p>
+                <a href="/blog/projekty/konwenty" class="button button--bg">Zobacz projekt</a>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-                <div id="website" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="wp-content/themes/softcraft/img/4elements.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">4elements</h3>
-                            <h4>Strona internetowa</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności.
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
-                    </div>
+        <div class="portfolio">
+            <img class="portfolio__img" height="600"
+                 srcset="wp-content/themes/softcraft/img/muzeum-farmacji@768.webp 1536w,
+                         wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
+                         wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
+                 sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+                 src="wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp"
+                 alt="Muzeum Farmacji – identyfikacja wizualna">
+
+            <div class="portfolio__wrapper">
+                <div class="portfolio__title">
+                    <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
+                    <h4>2020 | Identyfikacja wizualna</h4>
                 </div>
-                <div id="app" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="wp-content/themes/softcraft/img/konwenty.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
-                            <h4>Aplikacja</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce.
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
-                <div id="design" class="portfolio">
-                    <img class="portfolio__img" alt="4elements – strona internetowa" src="wp-content/themes/softcraft/img/muzeum-farmacji.jpg">
-                    <div class="portfolio__wrapper">
-                        <div class="portfolio__title">
-                            <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
-                            <h4>Identyfikacja wizualna</h4>
-                        </div>
-                        <p class="portfolio__description">
-                            Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu.
-                        </p>
-                        <a href="/blog/projekty/4elements" class="button button--bg button--ml--auto">Zobacz projekt</a>
-                    </div>
-                </div>
+                <p class="portfolio__description">
+                    Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
+                </p>
+                <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="col-md-12">
-                <div class="portfolio__more">
-                    <a href="#" class="button button--white">Zobacz więcej projektów</a>
-                </div>
-            </div>
-        </div>-->
-    </div>
-</section>
+    </section>
 
-<script defer>
-    let website = document.getElementById("website");
-    let app = document.getElementById("app");
-    let design = document.getElementById("design");
-
-    let website_link = document.getElementById("website_link")
-    let app_link = document.getElementById("app_link")
-    let design_link = document.getElementById("design_link")
-
-
-    website_link.onclick = function() {
-        website_link.classList.add("header--active");
-
-        app_link.classList.remove("header--active");
-        design_link.classList.remove("header--active");
-        website.style.opacity = "1";
-
-        app.style.opacity = "0";
-        website.style.zIndex = "2";
-        design.style.opacity = "0";
-
-        website.style.zIndex = "1";
-        app.style.zIndex = "0";
-        design.style.zIndex = "0";
-    };
-
-    app_link.onclick = function() {
-        website_link.classList.remove("header--active");
-        app_link.classList.add("header--active");
-        design_link.classList.remove("header--active");
-
-        website.style.opacity = "0";
-        app.style.opacity = "1";
-        design.style.opacity = "0";
-
-        website.style.zIndex = "0";
-        app.style.zIndex = "1";
-        design.style.zIndex = "0";
-    };
-
-    design_link.onclick = function() {
-        website_link.classList.remove("header--active");
-        app_link.classList.remove("header--active");
-        design_link.classList.add("header--active");
-
-        website.style.opacity = "0";
-        app.style.opacity = "0";
-        design.style.opacity = "1";
-
-        website.style.zIndex = "0";
-        app.style.zIndex = "0";
-        design.style.zIndex = "1";
-    };
-
-
-</script>
 
 <section class="section">
     <div class="container">
@@ -315,119 +249,34 @@
                 <div class="header__wrapper header__wrapper--center">
                     <h2 class="header header--secondary">Potrzebujesz więcej informacji?</h2>
                     <p class="description">Napisz do nas, a wrócimy do Ciebie<br>ze szczegółową ofertą</p>
-                    <a class="button button--bg button--mt">Skontaktuj się nami!</a>
+                    <a href="/blog/kontakt" class="button button--bg button--mt">Skontaktuj się nami!</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+
 <script defer>
-/*    document.getElementById("contact-form").onsubmit = function(){
-        let name = document.getElementsByName('name')[0].value;
-        let lastname = document.getElementsByName('lastname')[0].value;
-        let company = document.getElementsByName('company')[0].value;
-        let service = document.getElementsByName('service')[0].value;
-        let budget = document.getElementsByName('budget')[0].value;
-        let email = document.getElementsByName('email')[0].value;
-        let phone = document.getElementsByName('phone')[0].value;
-        let message = document.getElementsByName('message')[0].value;
-
-        fetch(ajax_url, {
-            method: "POST",
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' },
-            body: `action=send_form&security=${form_nonce}&name=${name}&lastname=${lastname}&company=${company}&service=${service}&budget=${budget}&email=${email}&phone=${phone}&message=${message}`
-        }).then(response => {
-            console.log(response);
-            if (response.ok) {
-                //return response.json();
-            }
-        }, networkError => {
-            //console.log(networkError.message);
-        });
-
-        // This return prevents the submit event to refresh the page.
-        return false;
-    };*/
-
-
-
-
-
-
-
-
-
-
-
-
-var TxtRotate = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtRotate.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-    }
-
-    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-    var that = this;
-    var delta = 150 - Math.random() * 100;
-
-    if (this.isDeleting) { delta /= 2; }
-
-    if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-    }
-
-    setTimeout(function() {
-        that.tick();
-    }, delta);
-};
-
-window.onload = function() {
-    var elements = document.getElementsByClassName('txt-rotate');
-    for (var i=0; i<elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-rotate');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-            new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    /*Array.from(document.querySelectorAll('.tooltip-path')).forEach(el => {
+        let tip = document.createElement('div');
+        tip.classList.add('tooltip');
+        tip.innerText = 'dsfsdf';
+        let delay = 1;
+        if (delay) {
+            tip.style.transitionDelay = delay + 's';
         }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #16AFBC }";
-    document.body.appendChild(css);
-};
-
-
-
-
-
-
-
-
-
-
-
+        tip.style.transform =
+            'translate(' +
+            (el.hasAttribute('tip-left') ? 'calc(-100% - 5px)' : '15px') + ', ' +
+            (el.hasAttribute('tip-top') ? '-100%' : '0') +
+            ')';
+        document.getElementsByTagName('body')[0].appendChild(tip);
+        el.onmousemove = e => { console.log('ff')
+            tip.style.left = e.clientX + 'px'
+            tip.style.top = e.clientY + 'px';
+        };
+    });*/
 
 </script>
 

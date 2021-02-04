@@ -4,12 +4,12 @@
 
     <section class="section section--bg-primary">
         <div class="container">
-            <div class="row">
+            <div class="row row--reverted-col">
                 <div class="col-md-6">
                     <div class="header__wrapper">
-                        <h1 class="header header--white header--z-index">
-                            Dostarczamy<br>
-                            kompleksowe usługi<br>
+                        <h1 class="header header--white">
+                            Dostarczamy
+                            kompleksowe usługi
                             naszym klientom
                         </h1>
                     </div>
@@ -25,8 +25,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header">Strony internetowe i aplikacje</h2>
-                    <p class="description">Tworzymy szybkie i dostępne strony www oraz aplikacje mobilne i webowe</p>
+                    <h2 class="header header--center-mobile">Strony internetowe i aplikacje</h2>
+                    <p class="description description--center-mobile">Tworzymy szybkie i dostępne strony www oraz aplikacje mobilne i webowe</p>
                 </div>
             </div>
             <div class="row">
@@ -76,8 +76,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header">Projektowanie graficzne</h2>
-                    <p class="description">Zapewniamy rozwiązania dopasowane do każdej firmy, oparte na analizie wizerunku i aktualnych trendach</p>
+                    <h2 class="header header--center-mobile">Projektowanie graficzne</h2>
+                    <p class="description description--center-mobile">Zapewniamy rozwiązania dopasowane do każdej firmy, oparte na analizie wizerunku i aktualnych trendach</p>
                 </div>
             </div>
             <div class="row">
@@ -106,7 +106,7 @@
                         <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm-.65 12.11c-.69 5.57-2.62 10.11-5.22 12.72h.42a2.4 2.4 0 110 2.55h-11.4a2.36 2.36 0 01-2 1.12 2.4 2.4 0 112-3.67h.42C9 22.22 7.05 17.68 6.36 12.11a2.29 2.29 0 01-1.27-2 2.39 2.39 0 014.78-.24 2.33 2.33 0 01-1 2c.93 7.33 4.25 12.81 7.94 12.81s7-5.47 8-12.8a2.34 2.34 0 01-1-2 2.39 2.39 0 114.78.24 2.33 2.33 0 01-1.23 1.99z" fill="#16AFBC"/></g></svg>
                         <div class="offer__content">
                             <h5 class="offer__title">Ikony i ilustracje</h5>
-                            <p class="offer__text">Możemy uzupełnić projekt o spersonalizowane, stworzone od podstaw elementy graficzne</p>
+                            <p class="offer__text">Uzupełnimy projekt o spersonalizowane, stworzone od podstaw elementy graficzne</p>
                         </div>
                     </div>
                 </div>
@@ -116,7 +116,7 @@
                         <div class="offer__content">
                             <h5 class="offer__title">Odświeżenie wizerunku (rebranding)</h5>
                             <p class="offer__text">Dostosujemy wizerunek firmy do zmieniającego się rynku oraz wymagań klientów</p>
-                            <p class="offer__text">Przeprowadzimy rebranding w wybranym zakresie – możemy odświeżyć logo, materiały reklamowe lub wygląd mediów społecznościowych</p>
+                            <p class="offer__text">Odświeżymy logo, materiały reklamowe i wygląd mediów społecznościowych</p>
                         </div>
                     </div>
                 </div>
@@ -128,8 +128,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header">Opieka nad stroną i pozycjonowanie</h2>
-                    <p class="description">Pomagamy w zarządzaniu stronami www i dbamy o ich wysoką pozycję w wyszukiwarkach internetowych</p>
+                    <h2 class="header header--center-mobile">Opieka nad stroną i pozycjonowanie</h2>
+                    <p class="description description--center-mobile">Pomagamy w zarządzaniu stronami www i dbamy o ich wysoką pozycję w wyszukiwarkach internetowych</p>
                 </div>
             </div>
             <div class="row">
@@ -138,7 +138,7 @@
                         <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.7 33.7"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.7V28a5.71 5.71 0 005.71 5.7H28a5.71 5.71 0 005.7-5.7V5.7A5.71 5.71 0 0028 0zM5.34 16.85a2.53 2.53 0 112.53 2.53 2.53 2.53 0 01-2.53-2.53zM12.28 25a2.52 2.52 0 110-3.56 2.5 2.5 0 010 3.56zm0-12.71a2.52 2.52 0 110-3.56 2.5 2.5 0 010 3.55zm4.57 16.08a2.52 2.52 0 112.53-2.52 2.52 2.52 0 01-2.53 2.51zm0-18a2.53 2.53 0 112.53-2.52 2.53 2.53 0 01-2.53 2.54zM25 25a2.52 2.52 0 110-3.56A2.5 2.5 0 0125 25zm.85-5.61a2.53 2.53 0 112.52-2.53 2.53 2.53 0 01-2.53 2.52z" fill="#16AFBC"/></g></svg>
                         <div class="offer__content">
                             <h5 class="offer__title">Aktualizacje stron www</h5>
-                            <p class="offer__text">Aktualizujemy systemy zarzadzania treścią (CMS) takie jak WordPress, działające z nimi wtyczki, a także zawartość stron internetowych</p>
+                            <p class="offer__text">Aktualizujemy systemy zarządzania treścią (CMS) takie jak WordPress, działające z nimi wtyczki, a także zawartość stron internetowych</p>
                         </div>
                     </div>
                     <div class="offer">
@@ -173,7 +173,7 @@
                         <div class="offer__content offer__content--border">
                             <h5 class="offer__title">Opieka nad stroną</h5>
                             <p class="offer__text offer__text--full">Oferujemy pakiet zawierający wszystkie powyższe opcje i wiele więcej</p>
-                            <p class="offer__text offer__text--full">Dbamy, by powierzone nam strony internetowe były zawsze aktualne i działały poprawnie</p>
+                            <p class="offer__text offer__text--full">Dbamy, by powierzone nam strony internetowe były zawsze aktualne, bezpieczne i działały poprawnie</p>
                         </div>
                     </div>
                 </div>
@@ -185,8 +185,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header">Tworzenie, redakcja i korekta tekstu</h2>
-                    <p class="description">Poprawimy lub przygotowujemy treści na stronę internetową</p>
+                    <h2 class="header header--center-mobile">Tworzenie, redakcja i korekta tekstu</h2>
+                    <p class="description description--center-mobile">Poprawimy lub przygotowujemy treści na stronę internetową</p>
                 </div>
             </div>
             <div class="row">

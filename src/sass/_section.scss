@@ -1,16 +1,23 @@
 .section {
-  padding: $xxl 0;
+  padding: $xl 0;
+
+  @include for-size(desktop) {
+    padding: $xxl 0;
+  }
 
   &--small {
     padding: $xl;
   }
 
   &--main {
-    height: calc(100vh - 80px);
-    min-height: 750px;
-    max-height: 1080px;
     display: flex;
     align-items: center;
+
+    @include for-size(tablet) {
+      height: calc(100vh - 80px);
+      min-height: 750px;
+      max-height: 1440px;
+    }
   }
 
   &--mobile-hide {

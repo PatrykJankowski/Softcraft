@@ -104,7 +104,6 @@ function send_form() {
     // Generate email content
     // Send to appropriate email
 
-
     check_ajax_referer('form_nonce', 'security');
 
     // honeypot
@@ -112,17 +111,25 @@ function send_form() {
         wp_die();
     }
 
-    if ( empty( $_POST["name"] ) ) {
-        echo "Insert your name please";
-        wp_die();
+    if (empty($_POST["name"])) {
+        wp_send_json_error('The name is empty');
+        //echo json_encode('Podaj imię');
+        //wp_die();
     }
 
-/*
-    if ( ! filter_var( $_POST["email"], FILTER_VALIDATE_EMAIL ) ) {
-        echo 'Insert your email please';
-        wp_die();
+    if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+        wp_send_json_error('The e-mail address is not valid');
     }
-*/
+
+    if (empty($_POST["service"])) {
+        wp_send_json_error('The service is empty');
+    }
+
+    if (empty($_POST["message"])) {
+        wp_send_json_error('The message is empty');
+    }
+
+
 
     // This is the email where you want to send the comments.
     $to = 'patryk.jankowski@softcraft.it';
@@ -130,7 +137,7 @@ function send_form() {
 
     // Your message subject.
     $subject = 'Pytanie: ' . $_POST["service"];
-    $subject2 = 'Softcraft – potwierdzenie otrzymania wiadomości';
+    $subject2 = 'Softcraft – potwierdzenie wysłania wiadomości';
 
     $company = $_POST["company"] ? $_POST["company"] . ', ' : '';
 
@@ -139,8 +146,8 @@ function send_form() {
     $body .= 'Budżet: ' . $_POST["budget"] . "<br>";
     $body .= 'Wiadomość:' . "<br>" . $_POST["message"];
 
-    $body2 = "Dziękujemy za skontaktowanie się z nami!<br>
-              Odpowiedzi możesz spodziewać się w ciągu 48 godzin.<br><br>
+    $body2 = "Dziękujemy za skontaktowanie się z nami,<br>
+              odpowiedzi możesz spodziewać się w ciągu 48 godzin.<br><br>
               
               <b>Softcraft</b>
               <div style='color: #11AEBB'>Crafting digital experience</div>";
@@ -152,7 +159,7 @@ function send_form() {
     wp_mail($to, $subject, $body, $headers);
     wp_mail($to2, $subject2, $body2, $headers);
 
-    wp_die();
+    wp_send_json_success('The e-mail has been send!');
 }
 add_action('wp_ajax_send_form', 'send_form');
 add_action('wp_ajax_nopriv_send_form', 'send_form');

@@ -34,7 +34,11 @@
   }
 
   &__logo {
-    height: 34px;
+    height: 28px;
+
+    @include for-size(tablet) {
+      height: 34px;
+    }
   }
 
   .cls-1--reverted {
