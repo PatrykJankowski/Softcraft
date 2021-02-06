@@ -8,9 +8,7 @@
                 <div class="col-md-6">
                     <div class="header__wrapper">
                         <h1 class="header header--white">
-                            Dostarczamy<br>
-                            kompleksowe usługi<br>
-                            naszym klientom
+                            Cyętnie odpowiadamy<br>na pytania
                         </h1>
                     </div>
                 </div>

@@ -76,14 +76,19 @@
         text-align: center;
         flex-direction: column;
         width: 100%;
-        padding: 0 $s $m $s ;
+        padding: 0 $s $m $s;
 
-        @media (min-width: 768px) {
+        @include for-size(tablet) {
             display: flex;
             text-align: left;
             padding: $m;
             width: 50%;
         }
+
+        @include for-size(desktop) {
+            padding: $xxl $l;
+        }
+
     }
 
     &__description {

@@ -82,7 +82,7 @@
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <h3 class="header header--mb-xs">4elements</h3>
-                <h4>Strona internetowa</h4>
+                <h4>2020 | Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
@@ -95,8 +95,8 @@
         <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">J. Grzybowski – Ubezpieczenia</h3>
-                <h4>Strona internetowa</h4>
+                <h3 class="header header--mb-xs">J. Grzybowski Ubezpieczenia</h3>
+                <h4>2020 | Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
@@ -110,7 +110,7 @@
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <h3 class="header header--mb-xs">Biblioteka Publiczna Gminy Linia</h3>
-                <h4>Strona internetowa</h4>
+                <h4>2017 | Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Spełniająca wymogi dostępności (WCAG) strona www stworzona we frameworku Django
@@ -129,7 +129,7 @@
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
-                <h4>Aplikacja mobilna</h4>
+                <h4>2020 | Aplikacja mobilna</h4>
             </div>
             <p class="portfolio__description">
                 Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
@@ -148,12 +148,12 @@
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
-                <h4>Identyfikacja wizualna</h4>
+                <h4>2019 | Identyfikacja wizualna</h4>
             </div>
             <p class="portfolio__description">
                 Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
             </p>
-            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
+            <a href="/blog/projekty/muzeum-farmacji-we-wroclawiu" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 
@@ -162,7 +162,7 @@
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <h3 class="header header--mb-xs">SGM Kids</h3>
-                <h4>Identyfikacja wizualna</h4>
+                <h4>2020 | Identyfikacja wizualna</h4>
             </div>
             <p class="portfolio__description">
                 Identyfikacja wizualna dla firmy SGM kids, zajmujacej się produkcją materiałów przenaczonych do zabawy sensorycznej dla dzieci

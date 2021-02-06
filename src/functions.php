@@ -1,10 +1,11 @@
 <?php
 
 add_filter( 'wp_enqueue_scripts', 'remove_shit', PHP_INT_MAX );
-function remove_shit(){
-    wp_dequeue_script( 'jquery');
-    wp_deregister_script( 'jquery');
-    wp_dequeue_style( 'wp-block-library' );
+
+function remove_shit() {
+    wp_dequeue_script('jquery');
+    wp_deregister_script('jquery');
+    wp_dequeue_style('wp-block-library');
     //wp_dequeue_style( 'contact-form-7' );
 }
 
@@ -91,7 +92,10 @@ function javascript_variables(){ ?>
 }
 add_action ( 'wp_head', 'javascript_variables' );
 
-
+function custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 function send_form() {
     /**
