@@ -48,9 +48,8 @@
                                 <?php the_post_thumbnail(); ?>
                             <?php endif; ?>
                             <div class="news__content">
-                                <h3 class="news__header"><?php the_title(); ?>
-                                </h3>
-                                <time class="news__date"><?php the_date(); ?></time>
+                                <h3 class="news__header"><?php the_title(); ?></h3>
+                                <time class="news__date"><?php echo get_the_date(); ?></time>
 
                                 <div class="news__text">
                                     <?php echo the_excerpt( wp_trim_words( get_the_content()), 10, '...' ); ?>

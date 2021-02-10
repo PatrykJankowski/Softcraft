@@ -23,11 +23,22 @@
         </div>
     </section>
 
-    <section id="s1" class="section section--separator">
+    <section class="section">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header header--center-mobile">Strony internetowe i aplikacje</h2>
+                    <h2 class="header header--center">Łączymy kompetencje z różnych dziedzin,<br>by dostarczać kompleksowe usługi</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="s1" class="section section--bg-tertiary">
+        <div class="container">
+
+            <div class="row">
+                <div class="col">
+                    <h3 class="header header--center-mobile">Strony internetowe i aplikacje</h3>
                     <p class="description description--center-mobile">Tworzymy szybkie i dostępne strony www oraz aplikacje mobilne i webowe</p>
                 </div>
             </div>
@@ -74,11 +85,11 @@
         </div>
     </section>
 
-    <section id="s2" class="section section--separator section--bg-tertiary">
+    <section id="s2" class="section">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header header--center-mobile">Projektowanie graficzne</h2>
+                    <h3 class="header header--center-mobile">Projektowanie graficzne</h3>
                     <p class="description description--center-mobile">Zapewniamy rozwiązania dopasowane do każdej firmy, oparte na analizie wizerunku i aktualnych trendach</p>
                 </div>
             </div>
@@ -125,11 +136,11 @@
         </div>
     </section>
 
-    <section id="s3" class="section section--separator">
+    <section id="s3" class="section section--bg-tertiary">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header header--center-mobile">Opieka nad stroną i pozycjonowanie</h2>
+                    <h3 class="header header--center-mobile">Opieka nad stroną i pozycjonowanie</h3>
                     <p class="description description--center-mobile">Pomagamy w zarządzaniu stronami www i dbamy o ich wysoką pozycję w wyszukiwarkach internetowych</p>
                 </div>
             </div>
@@ -182,11 +193,11 @@
         </div>
     </section>
 
-    <section id="s4" class="section section--bg-tertiary">
+    <section id="s4" class="section">
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header header--center-mobile">Tworzenie, redakcja i korekta tekstu</h2>
+                    <h3 class="header header--center-mobile">Tworzenie, redakcja i korekta tekstu</h3>
                     <p class="description description--center-mobile">Poprawimy lub przygotowujemy treści na stronę internetową</p>
                 </div>
             </div>
@@ -213,12 +224,12 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section section--bg-tertiary">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="header__wrapper header__wrapper--center">
-                        <h2 class="header header--secondary">Myślisz o projekcie?</h2>
+                        <h2 class="header">Myślisz o projekcie?</h2>
                         <p class="description">Zapytaj nas o wycenę</p>
                         <a class="button button--bg button--mt">Skontaktuj się nami!</a>
                     </div>

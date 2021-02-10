@@ -81,10 +81,12 @@
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
              src="/blog/wp-content/themes/softcraft/img/4elements@1920.webp"
              alt="4elements – strona internetowa">
+
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">4elements</h3>
-                <h4>2020 | Strona internetowa</h4>
+                <span class="portfolio__year">2020</span>
+                <h3 class="header">4elements</h3>
+                <h4 class="header">Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
@@ -94,16 +96,17 @@
     </div>
 
     <div class="portfolio">
-        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
+        <img class="portfolio__img" alt="Agencja Ubezpieczeniowa Janusz Grzybowski – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">J. Grzybowski Ubezpieczenia</h3>
-                <h4>2020 | Strona internetowa</h4>
+                <span class="portfolio__year">2020</span>
+                <h3 class="header">Agencja Ubezpieczeniowa J. Grzybowski</h3>
+                <h4 class="header">Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
             </p>
-            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
+            <a href="/blog/projekty/agencja-ubezpieczeniowa-grzybowski" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 
@@ -111,13 +114,14 @@
         <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/bpgl.jpg">
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">Biblioteka Publiczna Gminy Linia</h3>
-                <h4>2017 | Strona internetowa</h4>
+                <span class="portfolio__year">2020</span>
+                <h3 class="header">Biblioteka Publiczna Gminy Linia</h3>
+                <h4>Strona internetowa</h4>
             </div>
             <p class="portfolio__description">
                 Spełniająca wymogi dostępności (WCAG) strona www stworzona we frameworku Django
             </p>
-            <a href="/blog/projekty/biblioteka-publiczna-gmuny-linia" class="button button--bg">Zobacz projekt</a>
+            <a href="/blog/projekty/biblioteka-publiczna-gminy-linia" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 
@@ -128,15 +132,17 @@
                      /blog/wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
              src="/blog/wp-content/themes/softcraft/img/konwenty@1920.webp">
+
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">Kalendarz konwentów</h3>
-                <h4>2020 | Aplikacja mobilna</h4>
+                <span class="portfolio__year">2020</span>
+                <h3 class="header">Kalendarz konwentów</h3>
+                <h4>Aplikacja mobilna</h4>
             </div>
             <p class="portfolio__description">
                 Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
             </p>
-            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
+            <a href="/blog/projekty/kalendarz-konwentow" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 
@@ -147,10 +153,12 @@
                      /blog/wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
              src="/blog/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp">
+
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">Muzeum Farmacji<br>we Wrocławiu</h3>
-                <h4>2019 | Identyfikacja wizualna</h4>
+                <span class="portfolio__year">2020</span>
+                <h3 class="header">Muzeum Farmacji we Wrocławiu</h3>
+                <h4>Identyfikacja wizualna</h4>
             </div>
             <p class="portfolio__description">
                 Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
@@ -161,15 +169,17 @@
 
     <div class="portfolio">
         <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/sgm.jpg">
+
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <h3 class="header header--mb-xs">SGM Kids</h3>
-                <h4>2020 | Identyfikacja wizualna</h4>
+                <span class="portfolio__year">2019</span>
+                <h3 class="header">SGM Kids</h3>
+                <h4>Identyfikacja wizualna</h4>
             </div>
             <p class="portfolio__description">
                 Identyfikacja wizualna dla firmy SGM kids, zajmujacej się produkcją materiałów przenaczonych do zabawy sensorycznej dla dzieci
             </p>
-            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
+            <a href="/blog/projekty/sgm-kids" class="button button--bg">Zobacz projekt</a>
         </div>
     </div>
 </section>
@@ -179,7 +189,7 @@
         <div class="row">
             <div class="col">
                 <div class="header__wrapper header__wrapper--center">
-                    <h2 class="header header--secondary">Myślisz o projekcie?</h2>
+                    <h2 class="header">Myślisz o projekcie?</h2>
                     <p class="description">Zapytaj nas o wycenę</p>
                     <a class="button button--bg button--mt">Skontaktuj się nami!</a>
                 </div>
@@ -187,37 +197,6 @@
         </div>
     </div>
 </section>
-
-
-
-<script defer>
-    document.getElementById("contact-form").onsubmit = function(){
-        let name = document.getElementsByName('name')[0].value;
-        let lastname = document.getElementsByName('lastname')[0].value;
-        let company = document.getElementsByName('company')[0].value;
-        let service = document.getElementsByName('service')[0].value;
-        let budget = document.getElementsByName('budget')[0].value;
-        let email = document.getElementsByName('email')[0].value;
-        let phone = document.getElementsByName('phone')[0].value;
-        let message = document.getElementsByName('message')[0].value;
-
-        fetch(ajax_url, {
-            method: "POST",
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' },
-            body: `action=send_form&security=${form_nonce}&name=${name}&lastname=${lastname}&company=${company}&service=${service}&budget=${budget}&email=${email}&phone=${phone}&message=${message}`
-        }).then(response => {
-            console.log(response);
-            if (response.ok) {
-                //return response.json();
-            }
-        }, networkError => {
-            //console.log(networkError.message);
-        });
-
-        // This return prevents the submit event to refresh the page.
-        return false;
-    };
-</script>
 
 
 <?php get_footer(); ?>

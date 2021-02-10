@@ -2,16 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 120px;
+    margin-top: $xl;
     text-align: center;
 
-    @media (min-width: 768px) {
+    @include for-size(tablet) {
         flex-direction: initial;
         text-align: initial;
+        margin-top: $xxl;
     }
 
     &--border {
-        border: solid 1px $secondary;
+        border: solid 1px $primary;
         border-radius: 20px;
         padding: 30px;
     }
@@ -32,14 +33,14 @@
     &__header {
         margin-bottom: $s;
 
-        @media (min-width: 768px) {
+        @include for-size(tablet) {
             min-height: 83px;
         }
     }
 
     &__title {
-        margin-bottom: $s;
-        @include font-size(24);
+        //margin-bottom: $s;
+        //@include font-size(22);
     }
 
     &__icon {
@@ -47,13 +48,13 @@
         min-width: 60px;
         margin-bottom: $xs;
 
-        @media (min-width: 768px) {
+        @include for-size(tablet) {
             margin-right: $m;
             margin-bottom: 0;
         }
 
         &--top {
-            @media (min-width: 768px) {
+            @include for-size(tablet) {
                 margin-bottom: auto;
             }
         }
@@ -61,7 +62,7 @@
 
     &__text {
         max-width: 500px;
-        font-size: 24px;
+        font-size: 18px;
 
         &--full {
             max-width: 100%;

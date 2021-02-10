@@ -1,9 +1,9 @@
 .description {
   max-width: 800px;
-  font-size: 24px;
+  font-size: 26px;
 
   @include for-size(tablet) {
-    font-size: 32px;
+    @include font-size(30);
   }
 
   &--center-mobile {
