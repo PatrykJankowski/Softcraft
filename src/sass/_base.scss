@@ -9,10 +9,10 @@ body {
 }
 
 main {
-  margin-top: $navigation-height;
+  //margin-top: $navigation-height;
 
   @media screen and (min-width: $desktop) {
-    margin-top: $navigation-height;
+    //margin-top: $navigation-height;
     min-height: calc(100vh - 657px);
   }
 }

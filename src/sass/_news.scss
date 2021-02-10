@@ -3,8 +3,14 @@
 
   }
 
+  &__img-container {
+    display: flex;
+    background: $secondary;
+  }
+
   img {
     object-fit: cover;
     height: 320px;
+    mix-blend-mode: multiply;
   }
 }

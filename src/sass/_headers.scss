@@ -38,6 +38,10 @@
     margin-bottom: $xs;
   }
 
+  &--mb-xl {
+    margin-bottom: $xl;
+  }
+
   &__wrapper {
     display: flex;
     flex-direction: column;

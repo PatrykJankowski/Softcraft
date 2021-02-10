@@ -15,24 +15,26 @@ $navigation-height: 80px;
 
 /* Colors */
 //$blue: #006A9E;
-$blue: #0070A7;
+$blue: #007FFF;
 $gray: #FBFBFB;
 $white: #fff;
 
 $primary: $blue;
-$secondary: #16AFBC;
+$secondary: #28afb0;
+//$secondary: #007FFF;
 $tertiary: $gray;
 
 //$header-color: $tertiary;
-$text-main-color: #3A3B3C;
+//$text-main-color: #3A3B3C;
+$text-main-color: #37392e;
 
 /* Fonts */
 $text-size: 1rem;
-$h1-size: 54px;
+$h1-size: 64px;
 $h2-size: 42px;
-$h3-size: 32px;
-$h4-size: 32px;
-$h5-size: 16px;
+$h3-size: 30px;
+$h4-size: 30px;
+$h5-size: 18px;
 
 /* Resolutions */
 $desktop: 1024px;

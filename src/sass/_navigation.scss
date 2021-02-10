@@ -5,12 +5,13 @@
   z-index: 10;
   top: 0;
   width: 100%;
-  height: $xl;
-  background: $primary;
+  height: 70px;
+  background: transparent;
   transition: all 0.5s ease;
 
   &--reverted {
     background: $white;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 
     .navbar__nav-desktop {
       ul li a {
@@ -34,19 +35,15 @@
   }
 
   &__logo {
-    height: 28px;
-
-    @include for-size(tablet) {
-      height: 34px;
-    }
+    height: 30px;
   }
 
   .cls-1--reverted {
-    fill: $secondary;
+    fill: #1d1d1b;
   }
 
   .cls-2--reverted {
-    fill: #1d1d1b;
+    fill: $primary;
   }
 
   &__logo-wrapper {
@@ -80,8 +77,9 @@
           }
         }
 
+
         a {
-          font-size: 22px;
+          font-size: 20px;
           display: block;
           padding: 0 $m;
           color: $text-main-color;
@@ -102,23 +100,59 @@
       list-style: none;
 
       li {
-        padding-left: $m;
+        padding-left: $s;
 
         a {
-          font-size: 22px;
+          font-size: 20px;
           font-weight: 400;
           color: #fff;
           transition: 1s ease;
           border: 2px solid transparent;
 
-          &:hover {
-            border-bottom: 2px solid $secondary;
+          &:before, &:after {
+            display: inline-block;
+            opacity: 0;
+            -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+            -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+            transition: transform 0.3s, opacity 0.2s;
           }
+
+          &:before {
+            margin-right: 10px;
+            content: '{';
+            -webkit-transform: translateX(20px);
+            -moz-transform: translateX(20px);
+            transform: translateX(20px);
+          }
+
+          &:after {
+            margin-left: 10px;
+            content: '}';
+            -webkit-transform: translateX(-20px);
+            -moz-transform: translateX(-20px);
+            transform: translateX(-20px);
+          }
+
+          &:hover::before, &:hover::after, &:focus::before, &:focus::after {
+            opacity: 1;
+            -webkit-transform: translateX(0px);
+            -moz-transform: translateX(0px);
+            transform: translateX(0px);
+          }
+
+          /*&:hover {
+            border-bottom: 2px solid $secondary;
+          }*/
         }
 
         &.current_page_item {
           a {
-            border-bottom: 2px solid $secondary;
+            &:after, &:before {
+              opacity: 1;
+              -webkit-transform: translateX(0px);
+              -moz-transform: translateX(0px);
+              transform: translateX(0px);
+            }
           }
         }
       }
@@ -198,6 +232,6 @@
 
 .parent-pageid-25 {
   .navbar ul > li:nth-of-type(2) a {
-    border-bottom: 2px solid $secondary;
+    border-bottom: 2px solid $primary;
   }
 }

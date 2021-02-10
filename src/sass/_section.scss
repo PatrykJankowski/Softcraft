@@ -12,11 +12,26 @@
   &--main {
     display: flex;
     align-items: center;
+    height: 700px;
 
     @include for-size(tablet) {
-      height: calc(100vh - 80px);
+      height: 100vh;
+    }
+
+    @include for-size(tablet) {
+      //height: calc(100vh - 80px);
       min-height: 750px;
       max-height: 1440px;
+    }
+  }
+
+  &--main--secondary {
+    display: flex;
+    align-items: center;
+    height: 700px;
+
+    @include for-size(tablet) {
+
     }
   }
 

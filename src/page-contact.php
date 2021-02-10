@@ -2,13 +2,15 @@
 
 <?php get_header(); ?>
 
-    <section class="section section--bg-primary section--pt-xxl section--pb-xxl">
+    <section class="section section--bg-primary section--main--secondary">
+        <div class="hero-bg-secondary"></div>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
                     <div class="header__wrapper">
                         <h1 class="header header--white">
-                            Cyętnie odpowiadamy<br>na pytania
+                            Chętnie odpowiadamy<br>
+                            na pytania
                         </h1>
                     </div>
                 </div>
