@@ -39,7 +39,11 @@
   }
 
   &--mb-xxl {
-    margin-bottom: $xxl;
+    margin-bottom: $xl;
+
+    @include for-size(desktop) {
+      margin-bottom: $xxl;
+    }
   }
 
   &__wrapper {

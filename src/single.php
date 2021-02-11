@@ -17,15 +17,13 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <article class="news__article">
+                <article>
                     <?php if ( has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail(); ?>
                     <?php endif; ?>
-                    <div class="news__content">
-                        <h3 class="news__header"><?php the_title(); ?>
-                        </h3>
-                        <time class="news__date"><?php the_date(); ?></time>
-
+                    <div>
+                        <time class="news__date"><?php echo get_the_date(); ?></time>
+                        <h3 class="news__header"><?php the_title(); ?></h3>
                         <div class="news__text">
                             <?php the_content(); ?>
                         </div>

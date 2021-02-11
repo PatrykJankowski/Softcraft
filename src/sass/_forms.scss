@@ -8,11 +8,12 @@
 
 input {
   width: 100%;
-  padding: 20px;
+  padding: 20px 30px;
   margin-bottom: 20px;
-  font-size: 24px;
-  background: #F2F2F2;
-  border: 1px solid #F2F2F2;
+  font-size: 18px;
+  background: transparent;
+  border: 1px solid #6E6F71;
+  border-radius: 36px;
   font-family: "Open Sans", sans-serif;
   color: #6E6F71;
 
@@ -20,25 +21,28 @@ input {
     width: auto;
   }
 }
+
 textarea {
   width: 100%;
   min-height: 200px;
   margin-bottom: $s;
-  padding: 20px;
-  border: 1px solid #F2F2F2;
-  background: #F2F2F2;
-  font-size: 24px;
+  padding: 20px 30px;
+  background: transparent;
+  border: 1px solid #6E6F71;
+  border-radius: 36px;
+  font-size: 18px;
   font-family: "Open Sans", sans-serif;
   color: #6E6F71;
 }
 
 select {
   width: 100%;
-  padding: 20px;
+  padding: 20px 30px;
   margin-bottom: 20px;
-  font-size: 24px;
-  background: #F2F2F2;
-  border: 1px solid #F2F2F2;
+  font-size: 18px;
+  background: transparent;
+  border: 1px solid #6E6F71;
+  border-radius: 36px;
   font-family: "Open Sans", sans-serif;
   color: #6E6F71;
 

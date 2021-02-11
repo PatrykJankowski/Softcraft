@@ -70,4 +70,18 @@
   &--pbn {
     padding-bottom: 0;
   }
+
+  &--project {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #007FFF;
+      mix-blend-mode: multiply;
+      height: 700px;
+    }
+  }
 }

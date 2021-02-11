@@ -11,6 +11,14 @@
         margin-top: $xxl;
     }
 
+    &--mtn {
+        margin-top: 0;
+    }
+
+    &--mbs {
+        margin-bottom: $s;
+    }
+
     &--border {
         border: solid 1px $primary;
         border-radius: 20px;

@@ -114,7 +114,7 @@
         <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/bpgl.jpg">
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
-                <span class="portfolio__year">2020</span>
+                <span class="portfolio__year">2017</span>
                 <h3 class="header">Biblioteka Publiczna Gminy Linia</h3>
                 <h4>Strona internetowa</h4>
             </div>

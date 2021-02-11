@@ -9,23 +9,24 @@ function remove_shit() {
     //wp_dequeue_style( 'contact-form-7' );
 }
 
-
 add_action('init', function() {
     remove_action('rest_api_init', 'wp_oembed_register_route');
     remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10);
     remove_action('wp_head', 'wp_oembed_add_discovery_links');
     remove_action('wp_head', 'wp_oembed_add_host_js');
-    // Remove wp emoji
     remove_action('wp_head', 'print_emoji_detection_script', 7);
     remove_action('wp_print_styles', 'print_emoji_styles');
     remove_action('admin_print_scripts', 'print_emoji_detection_script');
     remove_action('admin_print_styles', 'print_emoji_styles');
 }, PHP_INT_MAX - 1 );
 
-/*function add_google_fonts() {
-    wp_enqueue_style('google_web_fonts', 'https://fonts.googleapis.com/css?family=Raleway:400,500');
+
+/* Enable upload for webp image files */
+function webp_upload_mimes($existing_mimes) {
+    $existing_mimes['webp'] = 'image/webp';
+    return $existing_mimes;
 }
-add_action( 'wp_enqueue_scripts', 'add_google_fonts' );*/
+add_filter('mime_types', 'webp_upload_mimes');
 
 
 add_action( 'after_setup_theme', 'setup' );
@@ -34,13 +35,14 @@ function setup() {
     add_theme_support( 'title-tag' );
     add_theme_support( 'automatic-feed-links' );
     add_theme_support( 'post-thumbnails' );
-    global $content_width;
-    if ( ! isset( $content_width ) ) $content_width = 640;
-    register_nav_menu('nav-menu',__( 'Menu nawigacyjne' ));
-    register_nav_menu('nav-menu-mobile',__( 'Menu mobilne' ));
+    //global $content_width;
+    //if (!isset($content_width)) $content_width = 640;
+    register_nav_menu('nav-menu',__('Menu nawigacyjne'));
+    register_nav_menu('nav-menu-mobile',__('Menu mobilne'));
 }
 
 
+/* Filter menu classes and ids */
 function nav_menu_attributes_filter($var) {
     return is_array($var) ? array_intersect($var, array('current_page_item', 'current-menu-ancestor', 'current_page_parent')) : '';
 }
@@ -54,7 +56,6 @@ function cyb_document_title_separator( $sep ) {
     return "|";
 }
 
-
 add_filter( 'the_title', 'title' );
 function title( $title ) {
     if ( $title == '' ) {
@@ -64,27 +65,19 @@ function title( $title ) {
     }
 }
 
-
 add_filter( 'wp_title', 'filter_wp_title' );
 function filter_wp_title( $title ) {
     return $title . esc_attr( get_bloginfo( 'name' ) );
 }
 
 
-add_action( 'widgets_init', 'widgets_init' );
-function widgets_init() {
-    register_sidebar(array(
-        'id'            => 'about',
-        'name'          => __('O firmie', 'softcraft'),
-        'description'   => 'Sekcja z krótkim opisem firmy na stronie głównej',
-        'before_widget' => '',
-        'after_widget'  => '',
-    ));
+function custom_excerpt_length( $length ) {
+    return 20;
 }
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 
-
-function javascript_variables(){ ?>
+function javascript_variables() { ?>
     <script type="text/javascript">
         let ajax_url = '<?php echo admin_url( "admin-ajax.php" ); ?>';
         let form_nonce = '<?php echo wp_create_nonce( "form_nonce" ); ?>';
@@ -92,18 +85,8 @@ function javascript_variables(){ ?>
 }
 add_action ( 'wp_head', 'javascript_variables' );
 
-function custom_excerpt_length( $length ) {
-    return 20;
-}
-add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 function send_form() {
-    /**
-     * At this point, $_GET/$_POST variable are available
-     *
-     * We can do our normal processing here
-     */
-
     // Sanitize the POST field
     // Generate email content
     // Send to appropriate email
@@ -132,8 +115,6 @@ function send_form() {
     if (empty($_POST["message"])) {
         wp_send_json_error('The message is empty');
     }
-
-
 
     // This is the email where you want to send the comments.
     $to = 'patryk.jankowski@softcraft.it';

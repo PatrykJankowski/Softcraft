@@ -92,7 +92,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="header header--center">Łączymy kompetencje z różnych dziedzin,<br>by dostarczać kompleksowe usługi</h2>
+                <h2 class="header header--center">Łączymy kompetencje z różnych dziedzin,<br>by dostarczać kompletne usługi</h2>
             </div>
         </div>
         <div class="row">
@@ -245,19 +245,17 @@
                 $wp_query = new WP_Query($args); ?>
 
                 <?php if ( $wp_query->have_posts() ) : while ( $wp_query->have_posts() ) : $wp_query->the_post(); ?>
-                    <div class="col-md-4">
+                    <div class="col-lg-4">
                         <article class="news__article">
                             <?php if ( has_post_thumbnail()) : ?>
                                 <div class="news__img-container"><?php the_post_thumbnail(); ?></div>
                             <?php endif; ?>
                             <div class="news__content">
-                                <h4 class="news__header"><?php the_title(); ?></h4>
                                 <time class="news__date"><?php echo get_the_date(); ?></time>
-
+                                <h4 class="news__header"><?php the_title(); ?></h4>
                                 <div class="news__text">
                                     <?php echo the_excerpt( wp_trim_words( get_the_content()), 10, '...' ); ?>
                                 </div>
-
                                 <a class="news__more" href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>">Czytaj więcej »</a>
                             </div>
                         </article>
