@@ -1,0 +1,19 @@
+code {
+  border-left: 4px solid $primary;
+  display: block;
+  font-style: italic;
+  padding: $xs;
+  margin: $s;
+  background: $tertiary;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.frame {
+  margin: 20px 0;
+  border: 2px solid $primary;
+  border-radius: 8px;
+  padding: 20px;
+}

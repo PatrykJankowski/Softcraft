@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-size: 18px;
   color: $text-main-color;
   line-height: 1.44;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   background: #fff;
 }
 
@@ -34,9 +38,11 @@ h1, h2, h3, h4, h5 {
 h1 {
   @include font-size(36);
   font-weight: 600;
+  min-height: 129px;
 
   @include for-size(desktop) {
     font-size: $h1-size;
+    min-height: 235px;
   }
 }
 
@@ -83,11 +89,7 @@ a {
   color: $secondary;
 }
 
-strong {
-  font-weight: 600;
-}
-
 ul, ol {
-  margin: 0 0 0 $s;
+  margin: 0 0 0 $m;
   padding: 0;
 }

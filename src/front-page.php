@@ -88,6 +88,7 @@
     </div>
 </section>
 
+
 <section class="section">
     <div class="container">
         <div class="row">
@@ -95,47 +96,46 @@
                 <h2 class="header header--center">Łączymy kompetencje z różnych dziedzin,<br>by dostarczać kompletne usługi</h2>
             </div>
         </div>
+    </div>
+</section>
+
+
+<section class="section section--bg-tertiary section--ptm">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="offer">
-                    <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12 7a2.77 2.77 0 11-2.81 2.75A2.76 2.76 0 0112 7zm1.27 21H9.19a1.28 1.28 0 010-2.55h4.05a1.28 1.28 0 110 2.55zm7.44-5.34H7.92v-2.54h12.76zm5.12-5.36H7.92v-2.54H25.8z" fill="#007FFF"></path></g></svg>
-                    <div class="offer__wrapper">
-                        <h4 class="offer__label">Programowanie</h4>
-                        <h3 class="offer__header">Strony www<br>i aplikacje mobilne</h3>
-                        <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
-                    </div>
+                <div class="services">
+                    <svg class="services__icon" width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12 7a2.77 2.77 0 11-2.81 2.75A2.76 2.76 0 0112 7zm1.27 21H9.19a1.28 1.28 0 010-2.55h4.05a1.28 1.28 0 110 2.55zm7.44-5.34H7.92v-2.54h12.76zm5.12-5.36H7.92v-2.54H25.8z" fill="#007FFF"></path></g></svg>
+                    <h3 class="offer__header">Strony www<br>i aplikacje mobilne</h3>
+                    <h4 class="offer__label">Programowanie</h4>
+                    <a href="/oferta#s1" class="button button--bg">Zobacz ofertę</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="offer">
-                    <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12.94 7.81a3.55 3.55 0 11-3.55 3.56 3.57 3.57 0 013.55-3.56zm-8 18.08l4.6-4.4L12 23.93l7.29-7.37 9.53 9.33z" fill="#007FFF"/></svg>
-                    <div class="offer__wrapper">
-                        <h4 class="offer__label">Grafika</h4>
-                        <h3 class="offer__header">Projektowanie<br>graficzne</h3>
-                        <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
-                    </div>
+                <div class="services">
+                    <svg class="services__icon" width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12.94 7.81a3.55 3.55 0 11-3.55 3.56 3.57 3.57 0 013.55-3.56zm-8 18.08l4.6-4.4L12 23.93l7.29-7.37 9.53 9.33z" fill="#007FFF"/></svg>
+                    <h3 class="offer__header">Projektowanie<br>graficzne</h3>
+                    <h4 class="offer__label">Grafika</h4>
+                    <a href="/oferta#s2" class="button button--bg">Zobacz ofertę</a>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-6">
-                <div class="offer">
-                    <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.7 33.72"><path d="M16.42 7.83A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zm-.1-12.4A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zM28 0H5.7A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.7 5.71H28A5.71 5.71 0 0033.7 28V5.71A5.71 5.71 0 0028 0zm.44 28.44H5.28v-2.55h19.53L22 23a9.74 9.74 0 01-12.81-1.43H5.28V19h2.25a9.74 9.74 0 01-.24-7.42h-2V9.05h3.43a9.75 9.75 0 1115.13 12.28l4.56 4.56zm-12-20.61A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm5.8 6.71a5.7 5.7 0 01-11.4 0v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55z" fill="#007FFF"/></svg>
-                    <div class="offer__wrapper">
-                        <h4 class="offer__label">Utrzymanie</h4>
-                        <h3 class="offer__header">Opieka nad stroną<br>i pozycjonowanie</h3>
-                        <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
-                    </div>
+                <div class="services">
+                    <svg class="services__icon" width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.7 33.72"><path d="M16.42 7.83A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zm-.1-12.4A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm.1 12.4a5.7 5.7 0 01-5.7-5.69v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55v1.27a5.7 5.7 0 01-5.7 5.69zM28 0H5.7A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.7 5.71H28A5.71 5.71 0 0033.7 28V5.71A5.71 5.71 0 0028 0zm.44 28.44H5.28v-2.55h19.53L22 23a9.74 9.74 0 01-12.81-1.43H5.28V19h2.25a9.74 9.74 0 01-.24-7.42h-2V9.05h3.43a9.75 9.75 0 1115.13 12.28l4.56 4.56zm-12-20.61A7.2 7.2 0 1023.61 15a7.2 7.2 0 00-7.19-7.17zm5.8 6.71a5.7 5.7 0 01-11.4 0v-1.27h2.55v1.27a3.15 3.15 0 006.3 0v-1.27h2.55z" fill="#007FFF"/></svg>
+                    <h3 class="offer__header">Opieka nad stroną<br>i pozycjonowanie</h3>
+                    <h4 class="offer__label">Utrzymanie</h4>
+                    <a href="/oferta#s3" class="button button--bg">Zobacz ofertę</a>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="offer">
-                    <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm.34 10.47H25.8v-2.4h-7.66v17.58h4.58v2.55H11v-2.55h4.58V8.07H7.93v2.46H5.38v-5h23z" fill="#007FFF"/></svg>                    <div class="offer__wrapper">
-                        <h4 class="offer__label">Tworzenie treści</h4>
-                        <h3 class="offer__header">Tworzenie, redakcja<br>i korekta tekstu</h3>
-                        <a href="/blog/oferta#s1" class="button button--bg">Zobacz ofertę</a>
-                    </div>
+                <div class="services">
+                    <svg class="services__icon" width="60" height="60" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm.34 10.47H25.8v-2.4h-7.66v17.58h4.58v2.55H11v-2.55h4.58V8.07H7.93v2.46H5.38v-5h23z" fill="#007FFF"/></svg>
+                    <h3 class="offer__header">Tworzenie, redakcja<br>i korekta tekstu</h3>
+                    <h4 class="offer__label">Tworzenie treści</h4>
+                    <a href="/oferta#s4" class="button button--bg">Zobacz ofertę</a>
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
 </section>
 
 
-    <section class="section section--bg-tertiary">
+    <section class="section">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -156,14 +156,14 @@
 
     <section class="section section--ptn section--pbn">
         <div class="portfolio">
-
-            <img class="portfolio__img" height="600"
+            <div class="portfolio__img-container">
+            <img class="portfolio__img" height="600" width="50%"
                  srcset="wp-content/themes/softcraft/img/4elements@768.webp 1536w,
                          wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
                          wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
                  src="wp-content/themes/softcraft/img/4elements@1920.webp"
                  alt="4elements – strona internetowa">
-
+            </div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__title">
                     <span class="portfolio__year">2020</span>
@@ -173,11 +173,35 @@
                 <p class="portfolio__description">
                     Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
                 </p>
-                <a href="/blog/projekty/4elements" class="button">Zobacz projekt</a>
+                <a href="/projekty/4elements" class="button">Zobacz projekt</a>
             </div>
         </div>
 
         <div class="portfolio">
+            <div class="portfolio__img-container">
+            <img class="portfolio__img" height="600" width="50%"
+                 srcset="wp-content/themes/softcraft/img/grzybowski@768.webp 1536w,
+                         wp-content/themes/softcraft/img/grzybowski@1920.webp 1920w,
+                         wp-content/themes/softcraft/img/grzybowski@3440.webp 3440w"
+                 sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+                 src="wp-content/themes/softcraft/img/grzybowski@1920.webp"
+                 alt="Agencja Ubezpieczeniowa J. Grzybowski – strona www">
+            </div>
+            <div class="portfolio__wrapper">
+                <div class="portfolio__title">
+                    <span class="portfolio__year">2020</span>
+                    <h3 class="header">Agencja Ubezpieczeniowa J. Grzybowski</h3>
+                    <h4 class="header">Strona internetowa</h4>
+                </div>
+                <p class="portfolio__description">
+                    Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
+                </p>
+                <a href="/projekty/agencja-ubezpieczeniowa-grzybowski" class="button">Zobacz projekt</a>
+            </div>
+        </div>
+
+<!--        <div class="portfolio">
+            <div class="portfolio__img-container">
             <img class="portfolio__img" height="600"
                  srcset="wp-content/themes/softcraft/img/konwenty@768.webp 1536w,
                          wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
@@ -185,7 +209,7 @@
                  sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
                  src="wp-content/themes/softcraft/img/konwenty@1920.webp"
                  alt="Kalendarz Konwentów – aplikacja mobilna">
-
+            </div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__title">
                     <span class="portfolio__year">2020</span>
@@ -195,19 +219,21 @@
                 <p class="portfolio__description">
                     Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
                 </p>
-                <a href="/blog/projekty/konwenty" class="button">Zobacz projekt</a>
+                <a href="/projekty/konwenty" class="button">Zobacz projekt</a>
             </div>
-        </div>
+        </div>-->
+
 
         <div class="portfolio">
-            <img class="portfolio__img" height="600"
+            <div class="portfolio__img-container">
+            <img class="portfolio__img" height="600" width="50%"
                  srcset="wp-content/themes/softcraft/img/muzeum-farmacji@768.webp 1536w,
                          wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
                          wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
                  sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
                  src="wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp"
                  alt="Muzeum Farmacji – identyfikacja wizualna">
-
+            </div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__title">
                     <span class="portfolio__year">2020</span>
@@ -217,9 +243,14 @@
                 <p class="portfolio__description">
                     Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
                 </p>
-                <a href="/blog/projekty/muzeum-farmacji-we-wroclawiu" class="button">Zobacz projekt</a>
+                <a href="/projekty/muzeum-farmacji-we-wroclawiu" class="button">Zobacz projekt</a>
             </div>
         </div>
+
+        <div class="portfolio__more">
+            <a href="/projekty" class="button">Zobacz więcej projektów</a>
+        </div>
+
     </section>
 
     <section class="section news">
@@ -252,7 +283,7 @@
                             <?php endif; ?>
                             <div class="news__content">
                                 <time class="news__date"><?php echo get_the_date(); ?></time>
-                                <h4 class="news__header"><?php the_title(); ?></h4>
+                                <h4 class="news__header"><a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
                                 <div class="news__text">
                                     <?php echo the_excerpt( wp_trim_words( get_the_content()), 10, '...' ); ?>
                                 </div>
@@ -273,35 +304,11 @@
                     <div class="header__wrapper header__wrapper--center">
                         <h2 class="header">Myślisz o projekcie?</h2>
                         <p class="description">Zapytaj nas o wycenę</p>
-                        <a href="/blog/kontakt" class="button button--bg button--mt">Skontaktuj się nami!</a>
+                        <a href="/kontakt" class="button button--bg button--mt">Skontaktuj się nami!</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-<!--<script defer>
-    /*Array.from(document.querySelectorAll('.tooltip-path')).forEach(el => {
-        let tip = document.createElement('div');
-        tip.classList.add('tooltip');
-        tip.innerText = 'dsfsdf';
-        let delay = 1;
-        if (delay) {
-            tip.style.transitionDelay = delay + 's';
-        }
-        tip.style.transform =
-            'translate(' +
-            (el.hasAttribute('tip-left') ? 'calc(-100% - 5px)' : '15px') + ', ' +
-            (el.hasAttribute('tip-top') ? '-100%' : '0') +
-            ')';
-        document.getElementsByTagName('body')[0].appendChild(tip);
-        el.onmousemove = e => { console.log('ff')
-            tip.style.left = e.clientX + 'px'
-            tip.style.top = e.clientY + 'px';
-        };
-    });*/
-
-</script>-->
 
 <?php get_footer(); ?>

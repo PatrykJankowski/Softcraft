@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: $xl;
+    margin-top: $l;
     text-align: center;
 
     @include for-size(tablet) {
@@ -11,8 +11,22 @@
         margin-top: $xxl;
     }
 
+    &--center-block {
+        justify-content: center;
+    }
+
+    &--first {
+        margin-top: 0;
+    }
+
     &--mtn {
         margin-top: 0;
+    }
+
+    &--mtn-t {
+        @include for-size(tablet) {
+            margin-top: 0;
+        }
     }
 
     &--mbs {
@@ -36,6 +50,7 @@
         @media (min-width: 768px) {
             margin: 0 0 $xs;
         }
+        order: 1;
     }
 
     &__header {
@@ -44,6 +59,8 @@
         @include for-size(tablet) {
             min-height: 83px;
         }
+
+        order: 2;
     }
 
     &__title {
@@ -66,6 +83,26 @@
                 margin-bottom: auto;
             }
         }
+
+        &--small {
+            width: 40px;
+            height: 40px;
+            min-width: 40px;
+
+            @include for-size(tablet) {
+                margin-right: $s;
+            }
+        }
+
+        &--x-small {
+            width: 30px;
+            height: 30px;
+            min-width: 30px;
+
+            @include for-size(tablet) {
+                margin-right: 0;
+            }
+        }
     }
 
     &__text {
@@ -75,5 +112,25 @@
         &--full {
             max-width: 100%;
         }
+    }
+}
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+
+    &__icon {
+        width: 60px;
+        min-width: 60px;
+        margin-bottom: 10px;
+        order: 0;
+    }
+
+    .button {
+        order: 4;
     }
 }

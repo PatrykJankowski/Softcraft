@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h2 class="header header--center">Najnowsze artykuły</h2>
+                    <h2 class="header header--center">Udostępniamy informacje dotyczące naszej firmy,<br>tworzenia stron www i nie tylko</h2>
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 'post_status'            => 'publish',
                 'pagination'             => true,
                 'paged'                  => (get_query_var('paged') ? get_query_var('paged') : 1),
-                'posts_per_page'         => 20,
+                'posts_per_page'         => 4,
                 'order'                  => 'DSC',
                 'orderby'                => 'date',
               );
@@ -58,7 +58,7 @@
                             <?php endif; ?>
                             <div class="news__content">
                                 <time class="news__date"><?php echo get_the_date(); ?></time>
-                                <h4 class="news__header"><?php the_title(); ?></h4>
+                                <h4 class="news__header"><a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
                                 <div class="news__text">
                                     <?php echo the_excerpt( wp_trim_words( get_the_content()), 10, '...' ); ?>
                                 </div>
@@ -71,13 +71,13 @@
             <div class="row news">
             <?php } else { ?>
                     <div class="col-lg-4">
-                        <article class="news__article">
+                        <article class="news__article news__article--no-margin">
                             <?php if ( has_post_thumbnail()) : ?>
                                 <div class="news__img-container"><?php the_post_thumbnail(); ?></div>
                             <?php endif; ?>
                             <div class="news__content">
                                 <time class="news__date"><?php echo get_the_date(); ?></time>
-                                <h4 class="news__header"><?php the_title(); ?></h4>
+                                <h4 class="news__header"><a href="<?php the_permalink(); ?>" alt="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h4>
                                 <div class="news__text">
                                     <?php echo the_excerpt( wp_trim_words( get_the_content()), 10, '...' ); ?>
                                 </div>

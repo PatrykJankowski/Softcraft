@@ -9,16 +9,41 @@
   }
 
   &__logo {
-    height: 86px;
+    height: 74px;
   }
 
   &__contact {
-    color: #30DAE8;
+    color: $white;
+    display: none;
+
+    @include for-size(tablet) {
+      display: block;
+    }
+  }
+
+  &__icon-link {
+    display: flex;
+    margin: $s $xs $xs $xs;
+
+    @include for-size(tablet) {
+      margin: 0 $s 0 0;
+    }
   }
 
   &__link {
     display: block;
     padding: 2px 0;
     color: #fff;
+  }
+
+  .col-md-6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    @include for-size(tablet) {
+      flex-direction: column;
+      justify-content: flex-start;
+    }
   }
 }

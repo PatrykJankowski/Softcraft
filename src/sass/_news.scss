@@ -23,7 +23,7 @@
   }
 
   &__article {
-    margin-bottom: $m;
+    margin-bottom: $l;
 
     &--no-margin {
       @include for-size(tablet) {
@@ -32,11 +32,8 @@
     }
   }
 
-  &__header {
-
-  }
-
   &__date {
+    display: flex;
     font-weight: 300;
     margin-bottom: $xs;
   }
@@ -48,6 +45,15 @@
     @include for-size(desktop) {
       margin: $xs 0 0;
     }
+
+    h4 {
+      margin: 20px 0 10px;
+    }
+
+    h5 {
+      margin: 20px 0 10px;
+    }
+
   }
 
   &__content {
@@ -75,6 +81,28 @@
     height: 230px;
     mix-blend-mode: multiply;
     filter: grayscale(1);
+  }
+
+  &__back {
+    margin-bottom: $m;
+    display: inline-block;
+  }
+
+  &--details {
+    .news__header {
+      margin-bottom: $s;
+    }
+
+    img {
+      height: auto;
+      margin: 40px auto;
+      display: block;
+      filter: none;
+    }
+  }
+
+  &__navigation {
+    margin-top: $l;
   }
 }
 

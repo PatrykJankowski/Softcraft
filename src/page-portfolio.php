@@ -22,16 +22,21 @@
     </div>
 </section>
 
-<section class="section section--separator">
+<section class="section">
     <div class="container">
         <div class="row">
             <div class="col">
                 <h2 class="header header--center">Współpracujemy z klientem na każdym etapie projektu</h2>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="section section--bg-tertiary">
+    <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <div class="offer">
+                <div class="offer offer--first offer--mtn-t">
                     <svg class="number" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.32 57.11"><g><path d="M28.32 57.11H16.25v-33l.12-5.43.19-5.93c-2 2-3.4 3.32-4.18 3.94l-6.56 5.22L0 14.65 18.4 0h9.92z" fill="#007FFF" opacity=".25"/></g></svg>
                     <div class="offer__content">
                         <h5 class="offer__title">Planowanie</h5>
@@ -40,7 +45,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="offer">
+                <div class="offer offer--mtn-t">
                     <svg class="number" xmlns="http://www.w3.org/2000/svg" opacity=".5" viewBox="0 0 40.08 57.93"><g><path d="M40.08 57.93H.16v-8.4L14.49 35q6.37-6.52 8.32-9a20.33 20.33 0 002.82-4.67 11.93 11.93 0 00.85-4.45 6.49 6.49 0 00-1.89-5.12 7.34 7.34 0 00-5.06-1.68 14.6 14.6 0 00-6.44 1.52 33.23 33.23 0 00-6.53 4.34L0 8.16a42.9 42.9 0 017-5.07A25.51 25.51 0 0113.05.8a31.14 31.14 0 017.34-.8 21.74 21.74 0 019.45 2 15.14 15.14 0 016.37 5.47 14.56 14.56 0 012.27 8.05 19.76 19.76 0 01-1.39 7.4 28.18 28.18 0 01-4.3 7.08 105.9 105.9 0 01-10.25 10.31l-7.34 6.92v.54h24.88z" fill="#007FFF" opacity=".75"/></g></svg>
                     <div class="offer__content">
                         <h5 class="offer__title">Projektowanie</h5>
@@ -74,14 +79,15 @@
 
 <section class="section section--pbn section--ptn">
     <div id="websites" class="portfolio">
+        <div class="portfolio__img-container">
         <img class="portfolio__img"
-             srcset="/blog/wp-content/themes/softcraft/img/4elements@1024.webp 1024w,
-                     /blog/wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
-                     /blog/wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
+             srcset="/wp-content/themes/softcraft/img/4elements@1024.webp 1024w,
+                     /wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
+                     /wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-             src="/blog/wp-content/themes/softcraft/img/4elements@1920.webp"
+             src="/wp-content/themes/softcraft/img/4elements@1920.webp"
              alt="4elements – strona internetowa">
-
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2020</span>
@@ -91,12 +97,14 @@
             <p class="portfolio__description">
                 Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
             </p>
-            <a href="/blog/projekty/4elements" class="button button--bg">Zobacz projekt</a>
+            <a href="/projekty/4elements" class="button">Zobacz projekt</a>
         </div>
     </div>
 
     <div class="portfolio">
-        <img class="portfolio__img" alt="Agencja Ubezpieczeniowa Janusz Grzybowski – strona internetowa" src="/blog/wp-content/themes/softcraft/img/grzybowski.jpg">
+        <div class="portfolio__img-container">
+        <img class="portfolio__img" alt="Agencja Ubezpieczeniowa Janusz Grzybowski – strona internetowa" src="/wp-content/themes/softcraft/img/grzybowski.jpg">
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2020</span>
@@ -106,12 +114,14 @@
             <p class="portfolio__description">
                 Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
             </p>
-            <a href="/blog/projekty/agencja-ubezpieczeniowa-grzybowski" class="button button--bg">Zobacz projekt</a>
+            <a href="/projekty/agencja-ubezpieczeniowa-grzybowski" class="button">Zobacz projekt</a>
         </div>
     </div>
 
     <div class="portfolio">
-        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/bpgl.jpg">
+        <div class="portfolio__img-container">
+        <img class="portfolio__img" alt="4elements – strona internetowa" src="/wp-content/themes/softcraft/img/bpgl.webp">
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2017</span>
@@ -121,18 +131,19 @@
             <p class="portfolio__description">
                 Spełniająca wymogi dostępności (WCAG) strona www stworzona we frameworku Django
             </p>
-            <a href="/blog/projekty/biblioteka-publiczna-gminy-linia" class="button button--bg">Zobacz projekt</a>
+            <a href="/projekty/biblioteka-publiczna-gminy-linia" class="button">Zobacz projekt</a>
         </div>
     </div>
 
     <div class="portfolio">
+        <div class="portfolio__img-container">
         <img class="portfolio__img"
-             srcset="/blog/wp-content/themes/softcraft/img/konwenty@1024.webp 1024w,
-                     /blog/wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
-                     /blog/wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
+             srcset="/wp-content/themes/softcraft/img/konwenty@1024.webp 1024w,
+                     /wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
+                     /wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-             src="/blog/wp-content/themes/softcraft/img/konwenty@1920.webp">
-
+             src="/wp-content/themes/softcraft/img/konwenty@1920.webp">
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2020</span>
@@ -142,18 +153,19 @@
             <p class="portfolio__description">
                 Aplikacja mobilna z listą wydarzeń fantasy i sc-fi w Polsce
             </p>
-            <a href="/blog/projekty/kalendarz-konwentow" class="button button--bg">Zobacz projekt</a>
+            <a href="" class="button">Zobacz projekt</a>
         </div>
     </div>
 
     <div class="portfolio">
+        <div class="portfolio__img-container">
         <img class="portfolio__img"
-             srcset="/blog/wp-content/themes/softcraft/img/muzeum-farmacji@1024.webp 1024w,
-                     /blog/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
-                     /blog/wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
+             srcset="/wp-content/themes/softcraft/img/muzeum-farmacji@1024.webp 1024w,
+                     /wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
+                     /wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-             src="/blog/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp">
-
+             src="/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp">
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2020</span>
@@ -163,13 +175,14 @@
             <p class="portfolio__description">
                 Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
             </p>
-            <a href="/blog/projekty/muzeum-farmacji-we-wroclawiu" class="button button--bg">Zobacz projekt</a>
+            <a href="/projekty/muzeum-farmacji-we-wroclawiu" class="button">Zobacz projekt</a>
         </div>
     </div>
 
     <div class="portfolio">
-        <img class="portfolio__img" alt="4elements – strona internetowa" src="/blog/wp-content/themes/softcraft/img/sgm.jpg">
-
+        <div class="portfolio__img-container">
+        <img class="portfolio__img" alt="4elements – strona internetowa" src="/wp-content/themes/softcraft/img/kids@1920.webp">
+        </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
                 <span class="portfolio__year">2019</span>
@@ -179,7 +192,7 @@
             <p class="portfolio__description">
                 Identyfikacja wizualna dla firmy SGM kids, zajmujacej się produkcją materiałów przenaczonych do zabawy sensorycznej dla dzieci
             </p>
-            <a href="/blog/projekty/sgm-kids" class="button button--bg">Zobacz projekt</a>
+            <a href="/projekty/sgm-kids" class="button">Zobacz projekt</a>
         </div>
     </div>
 </section>
@@ -191,7 +204,7 @@
                 <div class="header__wrapper header__wrapper--center">
                     <h2 class="header">Myślisz o projekcie?</h2>
                     <p class="description">Zapytaj nas o wycenę</p>
-                    <a class="button button--bg button--mt">Skontaktuj się nami!</a>
+                    <a href="/kontakt" class="button button--bg button--mt">Skontaktuj się nami!</a>
                 </div>
             </div>
         </div>

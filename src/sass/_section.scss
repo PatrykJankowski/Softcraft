@@ -29,10 +29,6 @@
     display: flex;
     align-items: center;
     height: 700px;
-
-    @include for-size(tablet) {
-
-    }
   }
 
   &--mobile-hide {
@@ -49,6 +45,14 @@
 
   &--bg-tertiary {
     background: $tertiary;
+  }
+
+  &--ptm {
+    padding-top: 0;
+
+    @media (min-width: 1200px) {
+      padding-top: $m;
+    }
   }
 
   &--pts {
@@ -82,6 +86,15 @@
       background-color: #007FFF;
       mix-blend-mode: multiply;
       height: 700px;
+    }
+  }
+
+  &--news {
+    height: 400px;
+
+    &:before {
+      background-color: #28afb0;
+      height: 400px;
     }
   }
 }
