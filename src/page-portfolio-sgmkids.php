@@ -89,7 +89,7 @@
                         <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M7.65 23.05a3.16 3.16 0 003.16 3.15h3.47v-3.79H7.65zm3.16-15.41a3.15 3.15 0 00-3.16 3.16v9.06h6.63V7.64zm12.25 0h-6.23V26.2h6.23a3.16 3.16 0 003.15-3.15V10.8a3.16 3.16 0 00-3.15-3.16zm0 0h-6.23V26.2h6.23a3.16 3.16 0 003.15-3.15V10.8a3.16 3.16 0 00-3.15-3.16zM7.65 23.05a3.16 3.16 0 003.16 3.15h3.47v-3.79H7.65zm0-12.25v9.06h6.63V7.64h-3.47a3.15 3.15 0 00-3.16 3.16zM28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm.75 23.05a5.7 5.7 0 01-5.7 5.7H10.81a5.71 5.71 0 01-5.71-5.7V10.8a5.71 5.71 0 015.71-5.71h12.25a5.71 5.71 0 015.7 5.71zM23.06 7.64h-6.23V26.2h6.23a3.16 3.16 0 003.15-3.15V10.8a3.16 3.16 0 00-3.15-3.16zM7.65 23.05a3.16 3.16 0 003.16 3.15h3.47v-3.79H7.65zm0-12.25v9.06h6.63V7.64h-3.47a3.15 3.15 0 00-3.16 3.16z" fill="#007FFF"></path></g></svg>
                         <div>
                             <h4>Rezultat</h4>
-                            <p>Identyfikacja wizualna umożliwiła SGM Kids zbudowanie swojego wizerunku posród obecnych oraz potencjalnych klientów, a także ułatwiła promocję marki oraz produktów podczas wydarzeń związanych z rozwojem i edukacją dzieci</p>
+                            <p>Identyfikacja wizualna umożliwiła SGM Kids zbudowanie swojego wizerunku posród obecnych i potencjalnych klientów, a także ułatwiła promocję marki oraz produktów podczas wydarzeń związanych z rozwojem i edukacją dzieci</p>
                         </div>
                     </div>
                 </div>

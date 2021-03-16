@@ -58,7 +58,7 @@
                     <div class="offer">
                         <svg class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm-.65 12.11c-.69 5.57-2.62 10.11-5.22 12.72h.42a2.4 2.4 0 110 2.55h-11.4a2.36 2.36 0 01-2 1.12 2.4 2.4 0 112-3.67h.42C9 22.22 7.05 17.68 6.36 12.11a2.29 2.29 0 01-1.27-2 2.39 2.39 0 014.78-.24 2.33 2.33 0 01-1 2c.93 7.33 4.25 12.81 7.94 12.81s7-5.47 8-12.8a2.34 2.34 0 01-1-2 2.39 2.39 0 114.78.24 2.33 2.33 0 01-1.23 1.99z" fill="#007FFF"></path></g></svg>                        <div>
                             <h4>Projektowanie</h4>
-                            <p>Struktura strony internetowej została stworzona tak by pomyślnie przechodzić testy narzędziami do sprawdzania jej poprawności</p>
+                            <p>Struktura strony internetowej została stworzona tak, by pomyślnie przechodzić testy narzędziami do sprawdzania jej poprawności</p>
                         </div>
                     </div>
                 </div>

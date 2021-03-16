@@ -4,7 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tworzymy wizerunki firm w internecie. Strony www, identyfikacja wizualna i redakcja tekstu to nasza specjalność.">
+    <!--<meta name="description" content="Tworzymy wizerunki firm w internecie. Strony www, identyfikacja wizualna i redakcja tekstu to nasza specjalność.">-->
     <meta name="theme-color" content="#007FFF">
 
     <link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/softcraft/img/apple-touch-icon.png">

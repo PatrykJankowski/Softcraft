@@ -173,7 +173,7 @@
                 <h4>Identyfikacja wizualna</h4>
             </div>
             <p class="portfolio__description">
-                Identyfikacja wizualna dla Muzeum Farmacji we Wroclawiu
+                Identyfikacja wizualna dla Muzeum Farmacji we Wrocławiu
             </p>
             <a href="/projekty/muzeum-farmacji-we-wroclawiu" class="button">Zobacz projekt</a>
         </div>

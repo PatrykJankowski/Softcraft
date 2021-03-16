@@ -71,7 +71,7 @@
                         <svg width="60" height="60" class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm-1.91 28.22l-5.69-5.7a9.54 9.54 0 114.14-7.86 9.39 9.39 0 01-2.26 6.14l5.62 5.61zM15 7.66a7 7 0 107 7 7 7 0 00-7-7zm.1 12.12a5.6 5.6 0 01-5.6-5.59h2.55a3 3 0 006.09 0h2.55a5.6 5.6 0 01-5.6 5.59z" fill="#007FFF"/></g></svg>
                         <div class="offer__content">
                             <h5 class="offer__title">Dla użytkowników i wyszukiwarek</h5>
-                            <p class="offer__text">Piszemy i korygujemy teksty na stronach www, tak by były przyjaznes dla użykowników i wyszukiwarek</p>
+                            <p class="offer__text">Piszemy i korygujemy teksty na stronach www, tak by były przyjazne dla użykowników i wyszukiwarek</p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <svg width="60" height="60" class="offer__icon offer__icon--top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g><path d="M28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zM12 7a2.77 2.77 0 11-2.81 2.75A2.76 2.76 0 0112 7zm1.27 21H9.19a1.28 1.28 0 010-2.55h4.05a1.28 1.28 0 110 2.55zm7.44-5.34H7.92v-2.54h12.76zm5.12-5.36H7.92v-2.54H25.8z" fill="#007FFF"></path></g></svg>
                         <div class="offer__content">
                             <h5 class="offer__title">Projekty stron internetowych i aplikacji mobilnych</h5>
-                            <p class="offer__text">Przygotujemy projekt strony www lub aplikacji, dostosowany do wizerunku firmy</p>
+                            <p class="offer__text">Przygotujemy projekt strony www lub aplikacji dostosowany do wizerunku firmy</p>
                         </div>
                     </div>
                 </div>
