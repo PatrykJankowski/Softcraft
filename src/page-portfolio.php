@@ -142,7 +142,8 @@
                      /wp-content/themes/softcraft/img/konwenty@1920.webp 1920w,
                      /wp-content/themes/softcraft/img/konwenty@3440.webp 3440w"
              sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-             src="/wp-content/themes/softcraft/img/konwenty@1920.webp">
+             src="/wp-content/themes/softcraft/img/konwenty@1920.webp"
+             alt="Muzeum Farmacji – kartka">
         </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">
@@ -160,11 +161,11 @@
     <div class="portfolio">
         <div class="portfolio__img-container">
         <img class="portfolio__img"
-             srcset="/wp-content/themes/softcraft/img/muzeum-farmacji@1024.webp 1024w,
-                     /wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
-                     /wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
-             sizes="(max-width: 1920px) 1920w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-             src="/wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp">
+             srcset="/wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1024.webp 1024w,
+                    /wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1920.webp 1920w,
+                    /wp-content/themes/softcraft/img/muzeum-farmacji-postcard@3440.webp 3440w"
+             sizes="(max-width: 1024px) 1024w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+             src="/wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1920.webp">
         </div>
         <div class="portfolio__wrapper">
             <div class="portfolio__title">

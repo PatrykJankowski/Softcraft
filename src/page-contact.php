@@ -51,7 +51,7 @@
                 <div class="offer offer--mtn offer--mbs">
                     <svg class="offer__icon offer__icon--top offer__icon--small" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 33.72 33.72"><g data-name="Layer 2"><path d="M24.12 9H9.61a1.84 1.84 0 00-.41 0l7.63 7.61a.29.29 0 00.37 0l7.54-7.55a2.12 2.12 0 00-.62-.06zM19 18.41a2.87 2.87 0 01-2 .81 2.81 2.81 0 01-2-.81l-7.5-7.54a.56.56 0 000 .22v11.52a2.14 2.14 0 002.14 2.15h14.48a2.15 2.15 0 002.14-2.15V11.15zm0 0a2.87 2.87 0 01-2 .81 2.81 2.81 0 01-2-.81l-7.5-7.54a.56.56 0 000 .22v11.52a2.14 2.14 0 002.14 2.15h14.48a2.15 2.15 0 002.14-2.15V11.15zm-1.8-1.81l7.54-7.55a2.12 2.12 0 00-.62-.1H9.61A1.84 1.84 0 009.2 9l7.63 7.61a.29.29 0 00.37-.01zM28 0H5.71A5.71 5.71 0 000 5.71V28a5.71 5.71 0 005.71 5.71H28A5.71 5.71 0 0033.72 28V5.71A5.71 5.71 0 0028 0zm.8 22.61a4.7 4.7 0 01-4.69 4.7H9.61a4.7 4.7 0 01-4.69-4.7V11.09A4.69 4.69 0 019.61 6.4h14.51a4.69 4.69 0 014.69 4.69zM17 19.22a2.81 2.81 0 01-2-.81l-7.5-7.54a.56.56 0 000 .22v11.52a2.14 2.14 0 002.14 2.15h14.48a2.15 2.15 0 002.14-2.15V11.15L19 18.41a2.87 2.87 0 01-2 .81zm.19-2.62l7.54-7.55a2.12 2.12 0 00-.62-.1H9.61A1.84 1.84 0 009.2 9l7.63 7.61a.29.29 0 00.37-.01z" fill="#007FFF" data-name="Layer 1"/></g></svg>
                     <div class="offer__content">
-                        <p><b>e-mail:</b> <a href="mailto:kontakt@softcraft.it">kontakt@softcraft.it</a></p>
+                        <p><b>e-mail:</b> <a href="mailto:kontakt@softcraft.pl">kontakt@softcraft.pl</a></p>
                     </div>
                 </div>
 
@@ -86,7 +86,7 @@
 
                 <form action="" method="post" name="contact-me" id="contact-form">
                     <input type="text" name="name" placeholder="Imię i nazwisko_">
-                    <input type="hidden" name="lastname" placeholder="Nazwisko_">
+                    <span class="lastname"><input type="text" name="lastname" placeholder="Nazwisko_"></span>
                     <input type="email" name="email" placeholder="E-mail_">
                     <input type="text" name="phone" placeholder="Numer telefonu (opcjonalnie)_">
                     <select name="service" class="dropdown">
