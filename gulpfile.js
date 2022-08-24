@@ -2,7 +2,6 @@
 const gulp = require('gulp'),
     sass = require("gulp-sass")(require("node-sass")),
     uglify = require('gulp-uglify-es').default,
-    image = require('gulp-image'),
     watch = require('gulp-watch'),
     webp = require('gulp-webp'),
     clean = require('gulp-clean');
@@ -45,8 +44,9 @@ gulp.task('json', function () {
 
 gulp.task('images', function () {
     return gulp.src('src/img/*')
-        //.pipe(image())
-        .pipe(webp())
+        .pipe(webp({
+            quality: 100,
+        }))
         .pipe(gulp.dest(path + 'img'))
 });
 

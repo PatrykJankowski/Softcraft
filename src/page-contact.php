@@ -65,14 +65,14 @@
                 <div class="offer offer--mtn offer--mbs">
                     <svg class="offer__icon offer__icon--small" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.215 0H6.773A6.784 6.784 0 000 6.775v26.45A6.788 6.788 0 006.773 40h26.442a6.77 6.77 0 006.268-4.18A6.778 6.778 0 0040 33.225V6.775A6.778 6.778 0 0033.215 0zm-2.219 16.612h-3.321a1.58 1.58 0 00-1.72 1.579c-.095 1.293 0 2.598 0 3.998h4.887c-.237 1.72-.439 3.335-.652 5.008h-4.27v12.767h-5.291V27.173H16.44v-5.007H20.7v-.878c0-1.282 0-2.564.071-3.845a5.47 5.47 0 014.686-5.34 30.605 30.605 0 015.112 0c.143 0 .416.238.416.38.035 1.293.011 2.646.011 4.13z" fill="#007FFF"/></svg>
                     <div class="offer__content">
-                        <p><b>facebook:</b> <a href="https://facebook.com/softcraft.it" target="_blank">facebook.com/softcraft.it</a></p>
+                        <p><b>facebook:</b> <a href="https://facebook.com/softcraftpl" target="_blank">facebook.com/softcraftpl</a></p>
                     </div>
                 </div>
 
                 <div class="offer offer--mtn offer--mbs">
                     <svg class="offer__icon offer__icon--small" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33.215 0H6.773A6.784 6.784 0 000 6.775v26.45A6.788 6.788 0 006.773 40h26.442a6.77 6.77 0 006.268-4.18A6.778 6.778 0 0040 33.225V6.775A6.778 6.778 0 0033.215 0zM16.204 22.19v4.223c0 .285-.071.392-.38.392h-2.372c-.273 0-.38-.071-.38-.356v-8.508c0-.26.083-.356.344-.356h2.48c.272 0 .344.095.344.356-.048 1.412-.036 2.836-.036 4.248zm-1.388-5.756h-.19a1.66 1.66 0 01-1.577-1.008 1.602 1.602 0 01.439-1.792 1.887 1.887 0 011.91-.297 1.483 1.483 0 011.031 1.365 1.578 1.578 0 01-1.613 1.732zm11.862 10.371h-2.372c-.273 0-.344-.095-.344-.344v-4.746a3.636 3.636 0 00-.06-.63 1.388 1.388 0 00-1.186-1.245 1.542 1.542 0 00-1.613.771 1.864 1.864 0 00-.237.83v4.89c0 .427 0 .427-.427.427h-2.373c-.332 0-.415-.107-.415-.416V18.88v-1.08c0-.19.083-.261.273-.261h2.598c.213 0 .273.107.273.296v.712a6.322 6.322 0 011.28-.913 3.367 3.367 0 014.805 2.634c.081.458.121.923.119 1.388v4.747c.118.296.047.403-.273.403h-.047z" fill="#007FFF"/></svg>
                     <div class="offer__content">
-                        <p><b>linkedin:</b> <a href="https://linkedin.com/company/softcraft-it" target="_blank">linkedin.com/company/softcraft-it</a></p>
+                        <p><b>linkedin:</b> <a href="https://linkedin.com/company/softcraft-pl" target="_blank">linkedin.com/company/softcraft-pl</a></p>
                     </div>
                 </div>
 
@@ -100,12 +100,11 @@
                     </select>
                     <select name="budget" class="dropdown">
                         <option value="" selected disabled>Zakładany budżet_</option>
-                        <option>do 500 zł</option>
-                        <option>od 500 do 1500 zł</option>
-                        <option>od 1500 zł do 2500 zł</option>
-                        <option>od 2500 zł do 3500 zł</option>
-                        <option>od 3500 zł do 5000 zł</option>
-                        <option>powyżej 5000 zł</option>
+                        <option>do 2000 zł</option>
+                        <option>od 2000 zł do 4000 zł</option>
+                        <option>od 4000 zł do 6000 zł</option>
+                        <option>od 6000 zł do 10000 zł</option>
+                        <option>powyżej 10000 zł</option>
                     </select>
                     <textarea name="message" placeholder="Treść wiadomości_"></textarea>
                     <input type="hidden" name="action" value="send_form">

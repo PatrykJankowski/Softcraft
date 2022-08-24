@@ -142,7 +142,6 @@
     </div>
 </section>
 
-
     <section class="section">
         <div class="container">
             <div class="row">
@@ -153,50 +152,38 @@
         </div>
     </section>
 
-
     <section class="section section--ptn section--pbn">
-        <div class="portfolio">
+        <div id="websites" class="portfolio">
             <div class="portfolio__img-container">
-            <img class="portfolio__img" height="600" width="50%"
-                 srcset="wp-content/themes/softcraft/img/4elements@768.webp 1536w,
-                         wp-content/themes/softcraft/img/4elements@1920.webp 1920w,
-                         wp-content/themes/softcraft/img/4elements@3440.webp 3440w"
-                 src="wp-content/themes/softcraft/img/4elements@1920.webp"
-                 alt="4elements – strona internetowa">
+                <img class="portfolio__img" alt="Sunblock – żaluzje i rolety" src="/wp-content/themes/softcraft/img/openapp-bg.webp">
             </div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__title">
-                    <span class="portfolio__year">2020</span>
-                    <h3 class="header">4elements</h3>
+                    <span class="portfolio__year">2022</span>
+                    <h3 class="header">OpenApp</h3>
                     <h4 class="header">Strona internetowa</h4>
                 </div>
                 <p class="portfolio__description">
-                    Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress oraz systemem obsługi płatności
+                    Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
                 </p>
-                <a href="/projekty/4elements" class="button">Zobacz projekt</a>
+                <a href="/projekty/openapp" class="button">Zobacz projekt</a>
             </div>
         </div>
 
         <div class="portfolio">
             <div class="portfolio__img-container">
-            <img class="portfolio__img" height="600" width="50%"
-                 srcset="wp-content/themes/softcraft/img/grzybowski@768.webp 1536w,
-                         wp-content/themes/softcraft/img/grzybowski@1920.webp 1920w,
-                         wp-content/themes/softcraft/img/grzybowski@3440.webp 3440w"
-                 sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-                 src="wp-content/themes/softcraft/img/grzybowski@1920.webp"
-                 alt="Agencja Ubezpieczeniowa J. Grzybowski – strona www">
+                <img class="portfolio__img" alt="Sunblock – żaluzje i rolety" src="/wp-content/themes/softcraft/img/sb11.webp">
             </div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__title">
-                    <span class="portfolio__year">2020</span>
-                    <h3 class="header">Agencja Ubezpieczeniowa J. Grzybowski</h3>
-                    <h4 class="header">Strona internetowa</h4>
+                    <span class="portfolio__year">2021</span>
+                    <h3 class="header">Sunblock</h3>
+                    <h4 class="header">Strona internetowa i identyfikacja wizualna</h4>
                 </div>
                 <p class="portfolio__description">
-                    Prosta, szybka, responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
+                    Strona www z łatwo konfigurowalnym katalogiem produktów i katalogiem realizacji usług.
                 </p>
-                <a href="/projekty/agencja-ubezpieczeniowa-grzybowski" class="button">Zobacz projekt</a>
+                <a href="/projekty/sunblock" class="button">Zobacz projekt</a>
             </div>
         </div>
 
@@ -227,11 +214,11 @@
         <div class="portfolio">
             <div class="portfolio__img-container">
             <img class="portfolio__img" height="600" width="50%"
-                 srcset="wp-content/themes/softcraft/img/muzeum-farmacji@768.webp 1536w,
-                         wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp 1920w,
-                         wp-content/themes/softcraft/img/muzeum-farmacji@3440.webp 3440w"
-                 sizes="(max-width: 1536px) 1536w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
-                 src="wp-content/themes/softcraft/img/muzeum-farmacji@1920.webp"
+                 srcset="/wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1024.webp 1024w,
+                         /wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1920.webp 1920w,
+                         /wp-content/themes/softcraft/img/muzeum-farmacji-postcard@3440.webp 3440w"
+                 sizes="(max-width: 1024px) 1024w, (max-width: 1920px) 1920w, (max-width: 3440px) 3440w"
+                 src="/wp-content/themes/softcraft/img/muzeum-farmacji-postcard@1920.webp"
                  alt="Muzeum Farmacji – identyfikacja wizualna">
             </div>
             <div class="portfolio__wrapper">
@@ -304,7 +291,7 @@
                     <div class="header__wrapper header__wrapper--center">
                         <h2 class="header">Myślisz o projekcie?</h2>
                         <p class="description">Zapytaj nas o wycenę</p>
-                        <a href="/kontakt" class="button button--bg button--mt">Skontaktuj się nami!</a>
+                        <a href="/kontakt" class="button button--bg button--mt">Skontaktuj się z nami!</a>
                     </div>
                 </div>
             </div>

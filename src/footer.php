@@ -10,11 +10,11 @@
                 </div>
                 <div class="col-md-6">
                     <div class="offer offer--mtn">
-                        <a class="footer__icon-link" aria-label="adres email" href="mailto:kontakt@softcraft.it">
+                        <a class="footer__icon-link" aria-label="adres email" href="mailto:kontakt@softcraft.pl">
                             <svg class="offer__icon offer__icon--x-small" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21.46 8.357H8.55a1.637 1.637 0 00-.365 0l6.788 6.773a.258.258 0 00.33 0l6.708-6.72a1.886 1.886 0 00-.552-.053zm-4.556 8.375a2.553 2.553 0 01-1.78.72 2.5 2.5 0 01-1.779-.72l-6.672-6.71a.499.499 0 000 .195V20.47a1.905 1.905 0 001.904 1.914h12.882a1.913 1.913 0 001.904-1.914V10.27l-6.46 6.462zm0 0a2.553 2.553 0 01-1.78.72 2.5 2.5 0 01-1.779-.72l-6.672-6.71a.499.499 0 000 .195V20.47a1.905 1.905 0 001.904 1.914h12.882a1.913 1.913 0 001.904-1.914V10.27l-6.46 6.462zm-1.601-1.611L22.01 8.4a1.887 1.887 0 00-.552-.088H8.55a1.637 1.637 0 00-.364.044l6.788 6.773a.258.258 0 00.33-.01zM24.91.348H5.081A5.08 5.08 0 000 5.429v19.837a5.082 5.082 0 005.08 5.082h19.831A5.079 5.079 0 0030 25.266V5.43A5.084 5.084 0 0024.911.348zm.712 20.121a4.184 4.184 0 01-4.173 4.183H8.55a4.18 4.18 0 01-4.173-4.183V10.217A4.174 4.174 0 018.55 6.043h12.91a4.172 4.172 0 014.172 4.174l-.01 10.252zm-10.498-3.017a2.5 2.5 0 01-1.78-.72l-6.672-6.71a.499.499 0 000 .195V20.47a1.905 1.905 0 001.904 1.914h12.882a1.913 1.913 0 001.904-1.914V10.27l-6.46 6.462a2.553 2.553 0 01-1.778.72zm.169-2.331l6.708-6.72a1.887 1.887 0 00-.552-.088H8.55a1.637 1.637 0 00-.365.044l6.788 6.773a.258.258 0 00.33-.01h-.01z" fill="#fff"/></svg>
                         </a>
                         <div class="offer__content">
-                            <p><a class="footer__contact" href="mailto:kontakt@softcraft.it">kontakt@softcraft.it</a></p>
+                            <p><a class="footer__contact" href="mailto:kontakt@softcraft.pl">kontakt@softcraft.pl</a></p>
                         </div>
                     </div>
                     <div class="offer offer--mtn">
@@ -26,11 +26,11 @@
                         </div>
                     </div>
                     <div class="offer offer--mtn">
-                        <a class="footer__icon-link" aria-label="strona na facebooku" rel="noreferrer noopener" href="https://facebook.com/softcraft.it" target="_blank">
+                        <a class="footer__icon-link" aria-label="strona na facebooku" rel="noreferrer noopener" href="https://facebook.com/softcraftpl" target="_blank">
                             <svg class="offer__icon offer__icon--x-small" width="30" height="30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24.911.852H5.081A5.088 5.088 0 000 5.933V25.77a5.091 5.091 0 005.08 5.082h19.831A5.079 5.079 0 0030 25.77V5.933A5.084 5.084 0 0024.911.852zM23.247 13.31h-2.49a1.182 1.182 0 00-1.29 1.183c-.072.97 0 1.95 0 3h3.665c-.178 1.29-.33 2.5-.49 3.755H19.44v9.576h-3.967V21.23H12.33v-3.755h3.194v-.659c0-.961 0-1.922.053-2.883a4.103 4.103 0 013.515-4.005 22.945 22.945 0 013.834 0c.107 0 .311.178.311.285.027.97.01 1.984.01 3.097z" fill="#fff"/></svg>
                         </a>
                         <div class="offer__content">
-                            <p><a class="footer__contact" rel="noreferrer noopener" href="https://facebook.com/softcraft.it" target="_blank">facebook.com/softcraft.it</a></p>
+                            <p><a class="footer__contact" rel="noreferrer noopener" href="https://facebook.com/softcraft.pl" target="_blank">facebook.com/softcraftpl</a></p>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
         </div>
     </footer>
 
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-T84QB7WG42"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-M5S3GNZR7X"></script>
 
 <script>
     window.dataLayer = window.dataLayer || [];

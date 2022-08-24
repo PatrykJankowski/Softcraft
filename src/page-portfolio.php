@@ -80,6 +80,40 @@
 <section class="section section--pbn section--ptn">
     <div id="websites" class="portfolio">
         <div class="portfolio__img-container">
+            <img class="portfolio__img" alt="Sunblock – żaluzje i rolety" src="/wp-content/themes/softcraft/img/openapp-bg.webp">
+        </div>
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <span class="portfolio__year">2022</span>
+                <h3 class="header">OpenApp</h3>
+                <h4 class="header">Strona internetowa</h4>
+            </div>
+            <p class="portfolio__description">
+                Responsywna strona internetowa zintegrowana z systemem zarządzania treścią Wordpress
+            </p>
+            <a href="/projekty/openapp" class="button">Zobacz projekt</a>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio__img-container">
+            <img class="portfolio__img" alt="Sunblock – żaluzje i rolety" src="/wp-content/themes/softcraft/img/sb11.webp">
+        </div>
+        <div class="portfolio__wrapper">
+            <div class="portfolio__title">
+                <span class="portfolio__year">2021</span>
+                <h3 class="header">Sunblock</h3>
+                <h4 class="header">Strona internetowa i identyfikacja wizualna</h4>
+            </div>
+            <p class="portfolio__description">
+                Strona www z łatwo konfigurowalnym katalogiem produktów i katalogiem realizacji usług.
+            </p>
+            <a href="/projekty/sunblock" class="button">Zobacz projekt</a>
+        </div>
+    </div>
+
+    <div class="portfolio">
+        <div class="portfolio__img-container">
         <img class="portfolio__img"
              srcset="/wp-content/themes/softcraft/img/4elements@1024.webp 1024w,
                      /wp-content/themes/softcraft/img/4elements@1920.webp 1920w,

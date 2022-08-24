@@ -1,5 +1,4 @@
 .news {
-
   &--horizontal {
     @include for-size(desktop) {
       .news__article {
@@ -103,6 +102,28 @@
 
   &__navigation {
     margin-top: $l;
+  }
+
+  figure {
+    margin: 0;
+
+    img {
+      margin: 20px 0 10px 0;
+      width: 100%;
+    }
+  }
+
+  figcaption {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .figure-center {
+    img {
+      margin: 20px auto 10px auto;
+      width: auto;
+    }
   }
 }
 
