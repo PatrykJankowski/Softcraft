@@ -56,7 +56,7 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-T84QB7WG42');
+    gtag('config', 'G-M5S3GNZR7X');
 
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
